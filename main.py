@@ -16,7 +16,6 @@ def load_env_variables():
         'holiday_api_key': os.getenv("HOLIDAY_API_KEY"),
         'weather_api_key': os.getenv("WEATHER_API_KEY"),
         'ticketmaster_api_key': os.getenv("TICKETMASTER_API_KEY"),
-        'sms_api_key': os.getenv("SMS_API_KEY")
     }
 
 def load_user_data():
@@ -79,7 +78,7 @@ def get_personalized_info(user_data, event_service, holiday_service, weather_ser
     except Exception as e:
         print(f"Error fetching holidays: {e}")
         next_holiday = None
-    
+   
     # Get weather forecast data
     if next_holiday:
         holiday_date = next_holiday['date']
@@ -111,6 +110,11 @@ def send_personalized_info(sms_provider, user_phone, info):
         message += f" Nearby Events: {info['events'][0]['name']} at {info['events'][0]['venue']}."
     else:
         message += " No events found."
+
+    if info.get('weather') and len(info['weather']) > 0:
+        message += f" Weather forecast: {info['weather'][0]['description']} with {info['weather'][0]['temp']}°C."
+    else:
+        message += " No weather forecast available."
 
     sms_provider.send_sms(user_phone, message)
     print(f"Message sent to {user_phone}: {message}")
@@ -157,7 +161,7 @@ def main():
     user_data = load_user_data()
     
     # Initialize services
-    sms_provider = MasterSchoolSMSProvider(env_vars['sms_api_key'])
+    sms_provider = MasterSchoolSMSProvider()
     event_service = EventService(env_vars['ticketmaster_api_key'])
     holiday_service = HolidayService(env_vars['holiday_api_key'])
     weather_service = WeatherService(env_vars['weather_api_key'])
