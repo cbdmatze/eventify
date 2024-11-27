@@ -5,6 +5,7 @@ from WeatherService import WeatherService
 import json
 import os
 from dotenv import load_dotenv
+from datetime import datetime
 
 def load_env_variables():
     """
@@ -73,7 +74,11 @@ def get_personalized_info(user_data, event_service, holiday_service, weather_ser
     events = event_service.get_local_events(city)
     
     # Get holiday data
-    next_holiday = holiday_service.get_next_holiday('US', 2024, 1)
+    try:
+        next_holiday = holiday_service.get_next_holiday('US', 2024, 1)
+    except Exception as e:
+        print(f"Error fetching holidays: {e}")
+        next_holiday = None
     
     # Get weather forecast data
     if next_holiday:
@@ -97,9 +102,15 @@ def send_personalized_info(sms_provider, user_phone, info):
         user_phone (str): The user's phone number.
         info (dict): The personalized information to send.
     """
-    message = f"Holiday: {info['holiday']['name']} on {info['holiday']['date']}."
-    if info['events']:
+    if info.get('holiday') and info['holiday'].get('name'):
+        message = f"Holiday: {info['holiday']['name']} on {info['holiday']['date']}."
+    else:
+        message = "No upcoming holidays found."
+
+    if info.get('events') and len(info['events']) > 0:
         message += f" Nearby Events: {info['events'][0]['name']} at {info['events'][0]['venue']}."
+    else:
+        message += " No events found."
 
     sms_provider.send_sms(user_phone, message)
     print(f"Message sent to {user_phone}: {message}")

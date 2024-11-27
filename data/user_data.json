@@ -1,1 +1,9 @@
-{"name": "Matthias", "birthday": "26.01.1983", "city": "Pfaffenhofen", "postal_code": "74397", "phone_number": "4915756411520"}
+{
+    "name": "Matthias",
+    "birthday": "26.01.1983",
+    "city": "Pfaffenhofen",
+    "postal_code": "74397",
+    "phone_number": "4915756411520",
+    "phone": "4915756411520",
+    "events": []
+}
