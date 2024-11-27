@@ -1,10 +1,10 @@
 from SMSService.Services.MasterSchoolSMSProvider import MasterSchoolSMSProvider
 from EventService import EventService
-from HolidayService import HolidayService
 from WeatherService import WeatherService
 import json
 import os
 from dotenv import load_dotenv
+from datetime import datetime
 
 def load_env_variables():
     """
@@ -12,10 +12,11 @@ def load_env_variables():
     """
     load_dotenv()
     return {
-        'holiday_api_key': os.getenv("HOLIDAY_API_KEY"),
         'weather_api_key': os.getenv("WEATHER_API_KEY"),
         'ticketmaster_api_key': os.getenv("TICKETMASTER_API_KEY"),
+        'sms_api_key': os.getenv("SMS_API_KEY")
     }
+
 def load_user_data():
     """
     Loads user data from the user_data.json file.
@@ -51,18 +52,17 @@ def onboard_user(sms_provider, user_phone):
     sms_provider.register_number(user_phone)
     print(f"User with phone number {user_phone} onboarded successfully.")
 
-def get_personalized_info(user_data, event_service, holiday_service, weather_service):
+def get_personalized_info(user_data, event_service, weather_service):
     """
-    Fetches personalized event, holiday, and weather data for the user.
+    Fetches personalized event and weather data for the user.
 
     Args:
         user_data (dict): The user-specific data (city, postal code, etc.).
         event_service (EventService): The event service instance.
-        holiday_service (HolidayService): The holiday service instance.
         weather_service (WeatherService): The weather service instance.
 
     Returns:
-        dict: The combined data of events, holidays, and weather.
+        dict: The combined data of events and weather.
     """
     city = user_data.get('city', 'default_city')
     postal_code = user_data.get('postal_code', 'default_postal_code')
@@ -70,27 +70,11 @@ def get_personalized_info(user_data, event_service, holiday_service, weather_ser
     # Get event data
     events = event_service.get_local_events(city)
     
-    # Get holiday data
-
-    next_holiday = holiday_service.get_next_holiday('US', 2024, 1)
-
-    try:
-        next_holiday = holiday_service.get_next_holiday('US', 2024, 1)
-    except Exception as e:
-        print(f"Error fetching holidays: {e}")
-        next_holiday = None
-
-    
     # Get weather forecast data
-    if next_holiday:
-        holiday_date = next_holiday['date']
-        forecast = weather_service.get_weather_forecast(postal_code, holiday_date)
-    else:
-        forecast = None
+    forecast = weather_service.get_weather_forecast(postal_code)
 
     return {
         'events': events,
-        'holiday': next_holiday,
         'weather': forecast
     }
 
@@ -103,21 +87,15 @@ def send_personalized_info(sms_provider, user_phone, info):
         user_phone (str): The user's phone number.
         info (dict): The personalized information to send.
     """
-
-    message = f"Holiday: {info['holiday']['name']} on {info['holiday']['date']}."
-    if info['events']:
-        message += f" Nearby Events: {info['events'][0]['name']} at {info['events'][0]['venue']}."
-
-
-    if info.get('holiday') and info['holiday'].get('name'):
-        message = f"Holiday: {info['holiday']['name']} on {info['holiday']['date']}."
-    else:
-        message = "No upcoming holidays found."
-
     if info.get('events') and len(info['events']) > 0:
-        message += f" Nearby Events: {info['events'][0]['name']} at {info['events'][0]['venue']}."
+        message = f"Nearby Events: {info['events'][0]['name']} at {info['events'][0]['venue']}."
     else:
-        message += " No events found."
+        message = "No events found."
+
+    if info.get('weather') and len(info['weather']) > 0:
+        message += f" Weather forecast: {info['weather'][0]['description']} with {info['weather'][0]['temp']}°C."
+    else:
+        message += " No weather forecast available."
 
     sms_provider.send_sms(user_phone, message)
     print(f"Message sent to {user_phone}: {message}")
@@ -127,7 +105,7 @@ def create_html_summary_page(info, user_phone):
     Creates an HTML summary page with the personalized information.
 
     Args:
-        info (dict): The personalized information (events, holidays, weather).
+        info (dict): The personalized information (events, weather).
         user_phone (str): The user's phone number.
 
     Returns:
@@ -137,14 +115,11 @@ def create_html_summary_page(info, user_phone):
     <html>
     <head><title>Personalized Info</title></head>
     <body>
-        <h1>Holiday Information</h1>
-        <p>Next holiday: {info['holiday']['name']} on {info['holiday']['date']}</p>
+        <h1>Upcoming Events</h1>
+        {"".join([f"<p>{event['name']} at {event['venue']} on {event['date']}</p>" for event in info['events']]) if info['events'] else '<p>No events found</p>'}
 
         <h2>Weather Forecast</h2>
         {"".join([f"<p>{day['date']}: {day['description']} with {day['temp']}°C</p>" for day in info['weather']]) if info['weather'] else '<p>No forecast available</p>'}
-
-        <h2>Upcoming Events</h2>
-        {"".join([f"<p>{event['name']} at {event['venue']} on {event['date']}</p>" for event in info['events']]) if info['events'] else '<p>No events found</p>'}
     </body>
     </html>
     """
@@ -164,9 +139,8 @@ def main():
     user_data = load_user_data()
     
     # Initialize services
-    sms_provider = MasterSchoolSMSProvider()
+    sms_provider = MasterSchoolSMSProvider(env_vars['sms_api_key'])
     event_service = EventService(env_vars['ticketmaster_api_key'])
-    holiday_service = HolidayService(env_vars['holiday_api_key'])
     weather_service = WeatherService(env_vars['weather_api_key'])
     
     user_phone = user_data.get("phone")
@@ -179,7 +153,7 @@ def main():
         save_user_data(user_data)
 
     # Fetch personalized info
-    personalized_info = get_personalized_info(user_data, event_service, holiday_service, weather_service)
+    personalized_info = get_personalized_info(user_data, event_service, weather_service)
 
     # Send personalized info via SMS
     send_personalized_info(sms_provider, user_phone, personalized_info)
