@@ -1,32 +1,39 @@
 from SMSService.Services.MasterSchoolSMSProvider import MasterSchoolSMSProvider
 
+class SMSController:
+    """
+    Controller for handling SMS-related operations using the MasterSchoolSMSProvider.
+    """
 
-class SMSController():
     def __init__(self):
+        """
+        Initializes the SMSController and sets up the SMS provider.
+        """
         self.sms_provider = MasterSchoolSMSProvider()
 
-    def get_team_name(self):
-        print(self.sms_provider.team_name)
+    def send_sms(self, phone_number: int, message: str):
+        """
+        Sends an SMS to the given phone number.
 
-    def add_new_team(self, team_name: str):
-        print(self.sms_provider.addNewTeam(team_name))
+        Args:
+            phone_number (int): The phone number to send the SMS to.
+            message (str): The message content to send.
 
-    def register_number(self, number: str):
-        print(self.sms_provider.register_number(number))
+        Returns:
+            dict: The response from the SMS provider.
+        """
+        response = self.sms_provider.send_sms(phone_number, message)
+        return response
 
+    def register_number(self, phone_number: str):
+        """
+        Registers a phone number with the SMS provider.
 
-    def send_sms(self, number: int, message: str):
-        print(self.sms_provider.send_sms(number, message))
+        Args:
+            phone_number (str): The phone number to register.
 
-
-
-def main():
-    sms_controller = SMSController()
-    sms_controller.get_team_name()
-    #sms_controller.register_number("015566209074")
-    sms_controller.send_sms(15566209074, "Hello, this is a test message!")
-   #sms_controller.add_new_team("TeamBBBBBWW")
-
-
-if __name__ == "__main__":
-    main()
+        Returns:
+            dict: The response from the SMS provider.
+        """
+        response = self.sms_provider.register_number(phone_number)
+        return response

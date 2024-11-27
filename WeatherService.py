@@ -1,87 +1,84 @@
-
 import requests
 import json
 
-# WeatherService Class to fetch weather data
 class WeatherService:
-    def __init__(self, api_key):
+    """
+    Service class for interacting with the Visual Crossing Weather API to fetch weather forecasts.
+    """
+
+    def __init__(self, api_key: str):
+        """
+        Initializes the WeatherService with the given API key.
+
+        Args:
+            api_key (str): The API key for the Visual Crossing Weather API.
+        """
         self.api_key = api_key
-        self.base_url = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/"
+        self.api_url = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/"
 
-    def get_weather_data(self, location):
-        url = f"{self.base_url}{location}"
+    def get_weather_forecast(self, city: str, start_date: str):
+        """
+        Fetches a 7-day weather forecast from Visual Crossing for the given city and start date.
 
-        # Set up query parameters
+        Args:
+            city (str): The city to fetch the forecast for.
+            start_date (str): The start date for the forecast in 'YYYY-MM-DD' format.
+
+        Returns:
+            list: A list of weather forecast details, or None on failure.
+        """
         params = {
+            'unitGroup': 'metric',
             'key': self.api_key,
-            'unitGroup': 'metric',  # Use 'us' for Fahrenheit, 'metric' for Celsius
-            'include': 'current',   # Get current weather data
-            'contentType': 'json'
+            'include': 'days'
         }
-        
-        try:
-            # Send the request to the API
-            response = requests.get(url, params=params)
-            response.raise_for_status()  # Raise an error for bad responses
-            weather_data = response.json()  # Parse the JSON response
-            return weather_data
-        except requests.exceptions.RequestException as e:
-            print(f"Error fetching data from Visual Crossing API: {e}")
-            return None
 
-# WeatherDataStorage Class to handle saving data to a file
-class WeatherDataStorage:
-    @staticmethod
-    def save_weather_data_to_json(weather_data, filename):
-        try:
-            # Write the weather data to a file in JSON format
-            with open(filename, 'w') as json_file:
-                json.dump(weather_data, json_file, indent=4)
-            print(f"Weather data saved to {filename}")
-        except IOError as e:
-            print(f"Error saving data to file: {e}")
+        api_url = f"{self.api_url}{city}/{start_date}/next7days"
 
-    @staticmethod
-    def load_weather_data_from_json(filename):
-        try:
-            # Read the weather data from the JSON file
-            with open(filename, 'r') as json_file:
-                return json.load(json_file)
-        except IOError as e:
-            print(f"Error loading data from file: {e}")
-            return None
+        response = requests.get(api_url, params=params)
 
-# Main Application
-class WeatherApp:
-    def __init__(self, api_key):
-        self.weather_service = WeatherService(api_key)
-        self.weather_storage = WeatherDataStorage()
-
-    def fetch_and_save_weather(self, location, filename):
-        weather_data = self.weather_service.get_weather_data(location)
-        if weather_data:
-            self.weather_storage.save_weather_data_to_json(weather_data, filename)
-
-    def display_current_weather(self, filename):
-        weather_data = self.weather_storage.load_weather_data_from_json(filename)
-        if weather_data and 'currentConditions' in weather_data:
-            current_weather = weather_data['currentConditions']
-            print(f"Current Weather:")
-            print(f"Temperature: {current_weather.get('temp', 'N/A')}°C")
-            print(f"Conditions: {current_weather.get('conditions', 'N/A')}")
-            print(f"Humidity: {current_weather.get('humidity', 'N/A')}%")
-            print(f"Wind Speed: {current_weather.get('wspd', 'N/A')} km/h")
+        if response.status_code == 200:
+            forecast_data = response.json()
+            forecasts = self.extract_forecast_info(forecast_data)
+            self.save_weather_data_to_json(forecasts, 'data/user_data.json')
+            return forecasts
         else:
-            print("Current weather data not found in the file.")
+            print(f"Error fetching weather data: {response.status_code}")
+            return None
 
-if __name__ == "__main__":
-    # Example location and your API key
-    location = "Berlin"  # You can change this to any city or postal code
-    api_key = "6R6EZ6N2WTV4PX5JXP84SJQX4"
-    
-    # Create the WeatherApp instance and fetch/save the weather data
-    weather_app = WeatherApp(api_key)
-    weather_app.fetch_and_save_weather(location, 'data/weather_data.json')
-  
-    # Now display the current weather from the saved JSON
-    weather_app.display_current_weather('data/weather_data.json')
+    def extract_forecast_info(self, forecast_data: dict):
+        """
+        Extracts relevant weather information from the API response.
+
+        Args:
+            forecast_data (dict): The raw forecast data from the Weather API.
+
+        Returns:
+            list: A list of daily weather details with relevant information.
+        """
+        forecasts = []
+        for day in forecast_data['days']:
+            forecasts.append({
+                'date': day.get('datetime', 'Date not available'),
+                'temp': day.get('temp', 'Temp not available'),
+                'description': day.get('description', 'Description not available')
+            })
+        return forecasts
+
+    def save_weather_data_to_json(self, forecasts: list, filename: str):
+        """
+        Saves the weather forecast data to a JSON file.
+
+        Args:
+            forecasts (list): The weather forecast details to save.
+            filename (str): The file to save the weather data to.
+        """
+        try:
+            with open(filename, 'r+') as file:
+                data = json.load(file)
+                data['weather'] = forecasts
+                file.seek(0)
+                json.dump(data, file, indent=4)
+        except FileNotFoundError:
+            with open(filename, 'w') as file:
+                json.dump({'weather': forecasts}, file, indent=4)
