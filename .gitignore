@@ -1,0 +1,9 @@
+.idea
+.idea/**
+.idea/.gitignore
+.idea/eventify.iml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/misc.xml
+.idea/modules.xml
+._.gitignore
+**/._layouts
