@@ -81,7 +81,7 @@ if __name__ == "__main__":
     
     # Create the WeatherApp instance and fetch/save the weather data
     weather_app = WeatherApp(api_key)
-    weather_app.fetch_and_save_weather(location, 'weather_data.json')
-    
+    weather_app.fetch_and_save_weather(location, 'data/weather_data.json')
+   
     # Now display the current weather from the saved JSON
-    weather_app.display_current_weather('weather_data.json')
+    weather_app.display_current_weather('data/weather_data.json')

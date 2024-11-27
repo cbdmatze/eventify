@@ -1,0 +1,3618 @@
+{
+    "_embedded": {
+        "events": [
+            {
+                "name": "Ilse Delange",
+                "type": "event",
+                "id": "Z698xZC2Z17fw14",
+                "test": false,
+                "url": "https://www.ticketmaster.de/event/ilse-delange-tickets/532295?language=en-us",
+                "locale": "en-us",
+                "images": [
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/7af/0161b804-5f87-4803-9f42-084c29cb97af_TABLET_LANDSCAPE_3_2.jpg",
+                        "width": 1024,
+                        "height": 683,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/7af/0161b804-5f87-4803-9f42-084c29cb97af_RETINA_PORTRAIT_16_9.jpg",
+                        "width": 640,
+                        "height": 360,
+                        "fallback": false
+                    },
+                    {
+                        "url": "https://s1.ticketm.net/dam/a/7af/0161b804-5f87-4803-9f42-084c29cb97af_SOURCE",
+                        "width": 2109,
+                        "height": 3164,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/7af/0161b804-5f87-4803-9f42-084c29cb97af_RECOMENDATION_16_9.jpg",
+                        "width": 100,
+                        "height": 56,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/7af/0161b804-5f87-4803-9f42-084c29cb97af_ARTIST_PAGE_3_2.jpg",
+                        "width": 305,
+                        "height": 203,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/7af/0161b804-5f87-4803-9f42-084c29cb97af_EVENT_DETAIL_PAGE_16_9.jpg",
+                        "width": 205,
+                        "height": 115,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/7af/0161b804-5f87-4803-9f42-084c29cb97af_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                        "width": 2048,
+                        "height": 1152,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/7af/0161b804-5f87-4803-9f42-084c29cb97af_RETINA_PORTRAIT_3_2.jpg",
+                        "width": 640,
+                        "height": 427,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "4_3",
+                        "url": "https://s1.ticketm.net/dam/a/7af/0161b804-5f87-4803-9f42-084c29cb97af_CUSTOM.jpg",
+                        "width": 305,
+                        "height": 225,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/7af/0161b804-5f87-4803-9f42-084c29cb97af_RETINA_LANDSCAPE_16_9.jpg",
+                        "width": 1136,
+                        "height": 639,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/7af/0161b804-5f87-4803-9f42-084c29cb97af_TABLET_LANDSCAPE_16_9.jpg",
+                        "width": 1024,
+                        "height": 576,
+                        "fallback": false
+                    }
+                ],
+                "sales": {
+                    "public": {
+                        "startDateTime": "2023-12-19T11:00:00Z",
+                        "startTBD": false,
+                        "startTBA": false,
+                        "endDateTime": "2024-11-27T11:00:00Z"
+                    }
+                },
+                "dates": {
+                    "start": {
+                        "localDate": "2024-11-27",
+                        "localTime": "20:00:00",
+                        "dateTime": "2024-11-27T19:00:00Z",
+                        "dateTBD": false,
+                        "dateTBA": false,
+                        "timeTBA": false,
+                        "noSpecificTime": false
+                    },
+                    "timezone": "Europe/Berlin",
+                    "status": {
+                        "code": "onsale"
+                    },
+                    "spanMultipleDays": false
+                },
+                "classifications": [
+                    {
+                        "primary": true,
+                        "segment": {
+                            "id": "KZFzniwnSyZfZ7v7nJ",
+                            "name": "Music"
+                        },
+                        "genre": {
+                            "id": "KnvZfZ7vAeA",
+                            "name": "Rock"
+                        },
+                        "subGenre": {
+                            "id": "KZazBEonSMnZfZ7v6F1",
+                            "name": "Pop"
+                        },
+                        "family": false
+                    }
+                ],
+                "promoter": {
+                    "id": "14449",
+                    "name": "SKS Michael Russ GmbH"
+                },
+                "promoters": [
+                    {
+                        "id": "14449",
+                        "name": "SKS Michael Russ GmbH"
+                    }
+                ],
+                "priceRanges": [
+                    {
+                        "type": "standard",
+                        "currency": "EUR",
+                        "min": 47.0,
+                        "max": 47.0
+                    },
+                    {
+                        "type": "standard including fees",
+                        "currency": "EUR",
+                        "min": 5.95,
+                        "max": 60.0
+                    }
+                ],
+                "seatmap": {
+                    "staticUrl": "https://media.ticketmaster.eu/germany/0a776f90f4f107b14b1a8d0c27b3f1c9.png",
+                    "id": "seatmap"
+                },
+                "ticketing": {
+                    "safeTix": {
+                        "enabled": false,
+                        "inAppOnlyEnabled": false
+                    },
+                    "id": "ticketing"
+                },
+                "_links": {
+                    "self": {
+                        "href": "/discovery/v2/events/Z698xZC2Z17fw14?locale=en-us"
+                    },
+                    "attractions": [
+                        {
+                            "href": "/discovery/v2/attractions/K8vZ917GQNf?locale=en-us"
+                        }
+                    ],
+                    "venues": [
+                        {
+                            "href": "/discovery/v2/venues/Z698xZC2ZaA64?locale=en-us"
+                        }
+                    ]
+                },
+                "_embedded": {
+                    "venues": [
+                        {
+                            "type": "venue",
+                            "id": "Z698xZC2ZaA64",
+                            "test": false,
+                            "url": "https://www.ticketmaster.de/venue/lka-longhorn-stuttgart-tickets/stulkalong/753",
+                            "locale": "en-us",
+                            "postalCode": "70327",
+                            "timezone": "Europe/Berlin",
+                            "city": {
+                                "name": "Stuttgart"
+                            },
+                            "country": {
+                                "name": "Germany",
+                                "countryCode": "DE"
+                            },
+                            "address": {
+                                "line1": "Heiligenwiesen 6"
+                            },
+                            "location": {
+                                "longitude": "9.25173",
+                                "latitude": "48.76755"
+                            },
+                            "upcomingEvents": {
+                                "mfx-de": 3,
+                                "_total": 3,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/venues/Z698xZC2ZaA64?locale=en-us"
+                                }
+                            }
+                        }
+                    ],
+                    "attractions": [
+                        {
+                            "name": "Ilse Delange",
+                            "type": "attraction",
+                            "id": "K8vZ917GQNf",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/ilse-delange-tickets/artist/721903",
+                            "locale": "en-us",
+                            "externalLinks": {
+                                "youtube": [
+                                    {
+                                        "url": "https://www.youtube.com/user/Ilsedelangemusic"
+                                    }
+                                ],
+                                "twitter": [
+                                    {
+                                        "url": "https://twitter.com/ilsedelange"
+                                    }
+                                ],
+                                "itunes": [
+                                    {
+                                        "url": "https://music.apple.com/us/artist/ilse-delange/1724209"
+                                    }
+                                ],
+                                "spotify": [
+                                    {
+                                        "url": "https://open.spotify.com/artist/3FTKP1k9VbOng3m1rgnsqx?si=y4NoJHntTdmmb1Z2U9xytQ&nd=1"
+                                    }
+                                ],
+                                "facebook": [
+                                    {
+                                        "url": "https://www.facebook.com/ilsedelange"
+                                    }
+                                ],
+                                "instagram": [
+                                    {
+                                        "url": "https://www.instagram.com/ilsedelangemusic/"
+                                    }
+                                ],
+                                "homepage": [
+                                    {
+                                        "url": "https://www.ilsedelange.com/"
+                                    }
+                                ]
+                            },
+                            "images": [
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/7af/0161b804-5f87-4803-9f42-084c29cb97af_TABLET_LANDSCAPE_3_2.jpg",
+                                    "width": 1024,
+                                    "height": 683,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/7af/0161b804-5f87-4803-9f42-084c29cb97af_RETINA_PORTRAIT_16_9.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                },
+                                {
+                                    "url": "https://s1.ticketm.net/dam/a/7af/0161b804-5f87-4803-9f42-084c29cb97af_SOURCE",
+                                    "width": 2109,
+                                    "height": 3164,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/7af/0161b804-5f87-4803-9f42-084c29cb97af_RECOMENDATION_16_9.jpg",
+                                    "width": 100,
+                                    "height": 56,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/7af/0161b804-5f87-4803-9f42-084c29cb97af_ARTIST_PAGE_3_2.jpg",
+                                    "width": 305,
+                                    "height": 203,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/7af/0161b804-5f87-4803-9f42-084c29cb97af_EVENT_DETAIL_PAGE_16_9.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/7af/0161b804-5f87-4803-9f42-084c29cb97af_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                                    "width": 2048,
+                                    "height": 1152,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/7af/0161b804-5f87-4803-9f42-084c29cb97af_RETINA_PORTRAIT_3_2.jpg",
+                                    "width": 640,
+                                    "height": 427,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "4_3",
+                                    "url": "https://s1.ticketm.net/dam/a/7af/0161b804-5f87-4803-9f42-084c29cb97af_CUSTOM.jpg",
+                                    "width": 305,
+                                    "height": 225,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/7af/0161b804-5f87-4803-9f42-084c29cb97af_RETINA_LANDSCAPE_16_9.jpg",
+                                    "width": 1136,
+                                    "height": 639,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/7af/0161b804-5f87-4803-9f42-084c29cb97af_TABLET_LANDSCAPE_16_9.jpg",
+                                    "width": 1024,
+                                    "height": 576,
+                                    "fallback": false
+                                }
+                            ],
+                            "classifications": [
+                                {
+                                    "primary": true,
+                                    "segment": {
+                                        "id": "KZFzniwnSyZfZ7v7nJ",
+                                        "name": "Music"
+                                    },
+                                    "genre": {
+                                        "id": "KnvZfZ7vAeA",
+                                        "name": "Rock"
+                                    },
+                                    "subGenre": {
+                                        "id": "KZazBEonSMnZfZ7v6F1",
+                                        "name": "Pop"
+                                    },
+                                    "type": {
+                                        "id": "KZAyXgnZfZ7v7nI",
+                                        "name": "Undefined"
+                                    },
+                                    "subType": {
+                                        "id": "KZFzBErXgnZfZ7v7lJ",
+                                        "name": "Undefined"
+                                    },
+                                    "family": false
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "mfx-nl": 1,
+                                "mfx-de": 6,
+                                "_total": 7,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/attractions/K8vZ917GQNf?locale=en-us"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "MAMMA MIA! - Das Original-Musical",
+                "type": "event",
+                "id": "Z698xZC2Z17fIuA",
+                "test": false,
+                "url": "https://www.ticketmaster.de/event/mamma-mia-das-original-musical-tickets/528345?language=en-us",
+                "locale": "en-us",
+                "images": [
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                        "width": 2048,
+                        "height": 1152,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RETINA_PORTRAIT_16_9.jpg",
+                        "width": 640,
+                        "height": 360,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_SOURCE",
+                        "width": 2426,
+                        "height": 1365,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RECOMENDATION_16_9.jpg",
+                        "width": 100,
+                        "height": 56,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "4_3",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_CUSTOM.jpg",
+                        "width": 305,
+                        "height": 225,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_SOURCE",
+                        "width": 940,
+                        "height": 627,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_RETINA_LANDSCAPE_16_9.jpg",
+                        "width": 1136,
+                        "height": 639,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_16_9.jpg",
+                        "width": 1024,
+                        "height": 576,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_3_2.jpg",
+                        "width": 1024,
+                        "height": 683,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RETINA_PORTRAIT_3_2.jpg",
+                        "width": 640,
+                        "height": 427,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_ARTIST_PAGE_3_2.jpg",
+                        "width": 305,
+                        "height": 203,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_EVENT_DETAIL_PAGE_16_9.jpg",
+                        "width": 205,
+                        "height": 115,
+                        "fallback": false
+                    }
+                ],
+                "sales": {
+                    "public": {
+                        "startDateTime": "2023-11-16T09:00:00Z",
+                        "startTBD": false,
+                        "startTBA": false,
+                        "endDateTime": "2024-12-11T20:00:00Z"
+                    }
+                },
+                "dates": {
+                    "start": {
+                        "localDate": "2024-12-11",
+                        "localTime": "20:00:00",
+                        "dateTime": "2024-12-11T19:00:00Z",
+                        "dateTBD": false,
+                        "dateTBA": false,
+                        "timeTBA": false,
+                        "noSpecificTime": false
+                    },
+                    "timezone": "Europe/Berlin",
+                    "status": {
+                        "code": "onsale"
+                    },
+                    "spanMultipleDays": false
+                },
+                "classifications": [
+                    {
+                        "primary": true,
+                        "segment": {
+                            "id": "KZFzniwnSyZfZ7v7na",
+                            "name": "Arts & Theatre"
+                        },
+                        "genre": {
+                            "id": "KnvZfZ7v7l1",
+                            "name": "Theatre"
+                        },
+                        "subGenre": {
+                            "id": "KZazBEonSMnZfZ7vAve",
+                            "name": "Musical"
+                        },
+                        "family": false
+                    }
+                ],
+                "promoter": {
+                    "id": "14449",
+                    "name": "SKS Michael Russ GmbH"
+                },
+                "promoters": [
+                    {
+                        "id": "14449",
+                        "name": "SKS Michael Russ GmbH"
+                    }
+                ],
+                "priceRanges": [
+                    {
+                        "type": "standard",
+                        "currency": "EUR",
+                        "min": 31.25,
+                        "max": 86.33
+                    },
+                    {
+                        "type": "standard including fees",
+                        "currency": "EUR",
+                        "min": 9.7,
+                        "max": 109.0
+                    }
+                ],
+                "ticketing": {
+                    "safeTix": {
+                        "enabled": false,
+                        "inAppOnlyEnabled": false
+                    },
+                    "id": "ticketing"
+                },
+                "_links": {
+                    "self": {
+                        "href": "/discovery/v2/events/Z698xZC2Z17fIuA?locale=en-us"
+                    },
+                    "attractions": [
+                        {
+                            "href": "/discovery/v2/attractions/K8vZ9171LHV?locale=en-us"
+                        }
+                    ],
+                    "venues": [
+                        {
+                            "href": "/discovery/v2/venues/Z698xZC2ZaAru?locale=en-us"
+                        }
+                    ]
+                },
+                "_embedded": {
+                    "venues": [
+                        {
+                            "type": "venue",
+                            "id": "Z698xZC2ZaAru",
+                            "test": false,
+                            "url": "https://www.ticketmaster.de/venue/porsche-arena-stuttgart-tickets/stuporsche/753",
+                            "locale": "en-us",
+                            "postalCode": "70372",
+                            "timezone": "Europe/Berlin",
+                            "city": {
+                                "name": "Stuttgart"
+                            },
+                            "country": {
+                                "name": "Germany",
+                                "countryCode": "DE"
+                            },
+                            "address": {
+                                "line1": "Mercedesstra\u00dfe 69"
+                            },
+                            "location": {
+                                "longitude": "9.22772",
+                                "latitude": "48.79387"
+                            },
+                            "upcomingEvents": {
+                                "mfx-de": 19,
+                                "_total": 19,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/venues/Z698xZC2ZaAru?locale=en-us"
+                                }
+                            }
+                        }
+                    ],
+                    "attractions": [
+                        {
+                            "name": "Mamma Mia! (International)",
+                            "type": "attraction",
+                            "id": "K8vZ9171LHV",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/mamma-mia-international-tickets/artist/804014",
+                            "locale": "en-us",
+                            "aliases": [
+                                "mama mia",
+                                "mamma mia",
+                                "mama mia!",
+                                "momma mia"
+                            ],
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                                    "width": 2048,
+                                    "height": 1152,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RETINA_PORTRAIT_16_9.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_SOURCE",
+                                    "width": 2426,
+                                    "height": 1365,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RECOMENDATION_16_9.jpg",
+                                    "width": 100,
+                                    "height": 56,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "4_3",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_CUSTOM.jpg",
+                                    "width": 305,
+                                    "height": 225,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_SOURCE",
+                                    "width": 940,
+                                    "height": 627,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_RETINA_LANDSCAPE_16_9.jpg",
+                                    "width": 1136,
+                                    "height": 639,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_16_9.jpg",
+                                    "width": 1024,
+                                    "height": 576,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_3_2.jpg",
+                                    "width": 1024,
+                                    "height": 683,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RETINA_PORTRAIT_3_2.jpg",
+                                    "width": 640,
+                                    "height": 427,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_ARTIST_PAGE_3_2.jpg",
+                                    "width": 305,
+                                    "height": 203,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_EVENT_DETAIL_PAGE_16_9.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                }
+                            ],
+                            "classifications": [
+                                {
+                                    "primary": true,
+                                    "segment": {
+                                        "id": "KZFzniwnSyZfZ7v7na",
+                                        "name": "Arts & Theatre"
+                                    },
+                                    "genre": {
+                                        "id": "KnvZfZ7v7l1",
+                                        "name": "Theatre"
+                                    },
+                                    "subGenre": {
+                                        "id": "KZazBEonSMnZfZ7vAve",
+                                        "name": "Musical"
+                                    },
+                                    "type": {
+                                        "id": "KZAyXgnZfZ7v7nI",
+                                        "name": "Undefined"
+                                    },
+                                    "subType": {
+                                        "id": "KZFzBErXgnZfZ7v7lJ",
+                                        "name": "Undefined"
+                                    },
+                                    "family": false
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "ticketnet": 15,
+                                "mfx-at": 16,
+                                "mfx-be": 31,
+                                "ticketmaster": 355,
+                                "mfx-de": 45,
+                                "_total": 462,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/attractions/K8vZ9171LHV?locale=en-us"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "MAMMA MIA! - Das Original-Musical",
+                "type": "event",
+                "id": "Z698xZC2Z17fIuK",
+                "test": false,
+                "url": "https://www.ticketmaster.de/event/mamma-mia-das-original-musical-tickets/528353?language=en-us",
+                "locale": "en-us",
+                "images": [
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                        "width": 2048,
+                        "height": 1152,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RETINA_PORTRAIT_16_9.jpg",
+                        "width": 640,
+                        "height": 360,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_SOURCE",
+                        "width": 2426,
+                        "height": 1365,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RECOMENDATION_16_9.jpg",
+                        "width": 100,
+                        "height": 56,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "4_3",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_CUSTOM.jpg",
+                        "width": 305,
+                        "height": 225,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_SOURCE",
+                        "width": 940,
+                        "height": 627,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_RETINA_LANDSCAPE_16_9.jpg",
+                        "width": 1136,
+                        "height": 639,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_16_9.jpg",
+                        "width": 1024,
+                        "height": 576,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_3_2.jpg",
+                        "width": 1024,
+                        "height": 683,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RETINA_PORTRAIT_3_2.jpg",
+                        "width": 640,
+                        "height": 427,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_ARTIST_PAGE_3_2.jpg",
+                        "width": 305,
+                        "height": 203,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_EVENT_DETAIL_PAGE_16_9.jpg",
+                        "width": 205,
+                        "height": 115,
+                        "fallback": false
+                    }
+                ],
+                "sales": {
+                    "public": {
+                        "startDateTime": "2023-11-16T09:00:00Z",
+                        "startTBD": false,
+                        "startTBA": false,
+                        "endDateTime": "2024-12-12T20:00:00Z"
+                    }
+                },
+                "dates": {
+                    "start": {
+                        "localDate": "2024-12-12",
+                        "localTime": "20:00:00",
+                        "dateTime": "2024-12-12T19:00:00Z",
+                        "dateTBD": false,
+                        "dateTBA": false,
+                        "timeTBA": false,
+                        "noSpecificTime": false
+                    },
+                    "timezone": "Europe/Berlin",
+                    "status": {
+                        "code": "onsale"
+                    },
+                    "spanMultipleDays": false
+                },
+                "classifications": [
+                    {
+                        "primary": true,
+                        "segment": {
+                            "id": "KZFzniwnSyZfZ7v7na",
+                            "name": "Arts & Theatre"
+                        },
+                        "genre": {
+                            "id": "KnvZfZ7v7l1",
+                            "name": "Theatre"
+                        },
+                        "subGenre": {
+                            "id": "KZazBEonSMnZfZ7vAve",
+                            "name": "Musical"
+                        },
+                        "family": false
+                    }
+                ],
+                "promoter": {
+                    "id": "14449",
+                    "name": "SKS Michael Russ GmbH"
+                },
+                "promoters": [
+                    {
+                        "id": "14449",
+                        "name": "SKS Michael Russ GmbH"
+                    }
+                ],
+                "priceRanges": [
+                    {
+                        "type": "standard including fees",
+                        "currency": "EUR",
+                        "min": 7.2,
+                        "max": 109.0
+                    },
+                    {
+                        "type": "standard",
+                        "currency": "EUR",
+                        "min": 33.0,
+                        "max": 86.33
+                    }
+                ],
+                "ticketing": {
+                    "safeTix": {
+                        "enabled": false,
+                        "inAppOnlyEnabled": false
+                    },
+                    "id": "ticketing"
+                },
+                "_links": {
+                    "self": {
+                        "href": "/discovery/v2/events/Z698xZC2Z17fIuK?locale=en-us"
+                    },
+                    "attractions": [
+                        {
+                            "href": "/discovery/v2/attractions/K8vZ9171LHV?locale=en-us"
+                        }
+                    ],
+                    "venues": [
+                        {
+                            "href": "/discovery/v2/venues/Z698xZC2ZaAru?locale=en-us"
+                        }
+                    ]
+                },
+                "_embedded": {
+                    "venues": [
+                        {
+                            "type": "venue",
+                            "id": "Z698xZC2ZaAru",
+                            "test": false,
+                            "url": "https://www.ticketmaster.de/venue/porsche-arena-stuttgart-tickets/stuporsche/753",
+                            "locale": "en-us",
+                            "postalCode": "70372",
+                            "timezone": "Europe/Berlin",
+                            "city": {
+                                "name": "Stuttgart"
+                            },
+                            "country": {
+                                "name": "Germany",
+                                "countryCode": "DE"
+                            },
+                            "address": {
+                                "line1": "Mercedesstra\u00dfe 69"
+                            },
+                            "location": {
+                                "longitude": "9.22772",
+                                "latitude": "48.79387"
+                            },
+                            "upcomingEvents": {
+                                "mfx-de": 19,
+                                "_total": 19,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/venues/Z698xZC2ZaAru?locale=en-us"
+                                }
+                            }
+                        }
+                    ],
+                    "attractions": [
+                        {
+                            "name": "Mamma Mia! (International)",
+                            "type": "attraction",
+                            "id": "K8vZ9171LHV",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/mamma-mia-international-tickets/artist/804014",
+                            "locale": "en-us",
+                            "aliases": [
+                                "mama mia",
+                                "mamma mia",
+                                "mama mia!",
+                                "momma mia"
+                            ],
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                                    "width": 2048,
+                                    "height": 1152,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RETINA_PORTRAIT_16_9.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_SOURCE",
+                                    "width": 2426,
+                                    "height": 1365,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RECOMENDATION_16_9.jpg",
+                                    "width": 100,
+                                    "height": 56,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "4_3",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_CUSTOM.jpg",
+                                    "width": 305,
+                                    "height": 225,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_SOURCE",
+                                    "width": 940,
+                                    "height": 627,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_RETINA_LANDSCAPE_16_9.jpg",
+                                    "width": 1136,
+                                    "height": 639,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_16_9.jpg",
+                                    "width": 1024,
+                                    "height": 576,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_3_2.jpg",
+                                    "width": 1024,
+                                    "height": 683,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RETINA_PORTRAIT_3_2.jpg",
+                                    "width": 640,
+                                    "height": 427,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_ARTIST_PAGE_3_2.jpg",
+                                    "width": 305,
+                                    "height": 203,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_EVENT_DETAIL_PAGE_16_9.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                }
+                            ],
+                            "classifications": [
+                                {
+                                    "primary": true,
+                                    "segment": {
+                                        "id": "KZFzniwnSyZfZ7v7na",
+                                        "name": "Arts & Theatre"
+                                    },
+                                    "genre": {
+                                        "id": "KnvZfZ7v7l1",
+                                        "name": "Theatre"
+                                    },
+                                    "subGenre": {
+                                        "id": "KZazBEonSMnZfZ7vAve",
+                                        "name": "Musical"
+                                    },
+                                    "type": {
+                                        "id": "KZAyXgnZfZ7v7nI",
+                                        "name": "Undefined"
+                                    },
+                                    "subType": {
+                                        "id": "KZFzBErXgnZfZ7v7lJ",
+                                        "name": "Undefined"
+                                    },
+                                    "family": false
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "ticketnet": 15,
+                                "mfx-at": 16,
+                                "mfx-be": 31,
+                                "ticketmaster": 355,
+                                "mfx-de": 45,
+                                "_total": 462,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/attractions/K8vZ9171LHV?locale=en-us"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Yu - Yu and You Tour 2024",
+                "type": "event",
+                "id": "Z698xZC2Z174FZ-",
+                "test": false,
+                "url": "https://www.ticketmaster.de/event/yu-yu-and-you-tour-2024-tickets/548021?language=en-us",
+                "locale": "en-us",
+                "images": [
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/f59/1528175e-04e9-4356-be14-9f43b07edf59_EVENT_DETAIL_PAGE_16_9.jpg",
+                        "width": 205,
+                        "height": 115,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/f59/1528175e-04e9-4356-be14-9f43b07edf59_RETINA_LANDSCAPE_16_9.jpg",
+                        "width": 1136,
+                        "height": 639,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/f59/1528175e-04e9-4356-be14-9f43b07edf59_TABLET_LANDSCAPE_16_9.jpg",
+                        "width": 1024,
+                        "height": 576,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/f59/1528175e-04e9-4356-be14-9f43b07edf59_RETINA_PORTRAIT_3_2.jpg",
+                        "width": 640,
+                        "height": 427,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/f59/1528175e-04e9-4356-be14-9f43b07edf59_RECOMENDATION_16_9.jpg",
+                        "width": 100,
+                        "height": 56,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/f59/1528175e-04e9-4356-be14-9f43b07edf59_TABLET_LANDSCAPE_3_2.jpg",
+                        "width": 1024,
+                        "height": 683,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/f59/1528175e-04e9-4356-be14-9f43b07edf59_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                        "width": 2048,
+                        "height": 1152,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "4_3",
+                        "url": "https://s1.ticketm.net/dam/a/f59/1528175e-04e9-4356-be14-9f43b07edf59_CUSTOM.jpg",
+                        "width": 305,
+                        "height": 225,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/f59/1528175e-04e9-4356-be14-9f43b07edf59_ARTIST_PAGE_3_2.jpg",
+                        "width": 305,
+                        "height": 203,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/f59/1528175e-04e9-4356-be14-9f43b07edf59_RETINA_PORTRAIT_16_9.jpg",
+                        "width": 640,
+                        "height": 360,
+                        "fallback": false
+                    }
+                ],
+                "sales": {
+                    "public": {
+                        "startDateTime": "2024-07-05T10:30:00Z",
+                        "startTBD": false,
+                        "startTBA": false,
+                        "endDateTime": "2024-12-13T19:00:00Z"
+                    }
+                },
+                "dates": {
+                    "access": {
+                        "startDateTime": "2024-12-13T19:30:00Z",
+                        "startApproximate": false,
+                        "endApproximate": false
+                    },
+                    "start": {
+                        "localDate": "2024-12-13",
+                        "localTime": "20:00:00",
+                        "dateTime": "2024-12-13T19:00:00Z",
+                        "dateTBD": false,
+                        "dateTBA": false,
+                        "timeTBA": false,
+                        "noSpecificTime": false
+                    },
+                    "timezone": "Europe/Berlin",
+                    "status": {
+                        "code": "onsale"
+                    },
+                    "spanMultipleDays": false
+                },
+                "classifications": [
+                    {
+                        "primary": true,
+                        "segment": {
+                            "id": "KZFzniwnSyZfZ7v7nJ",
+                            "name": "Music"
+                        },
+                        "genre": {
+                            "id": "KnvZfZ7vAeA",
+                            "name": "Rock"
+                        },
+                        "subGenre": {
+                            "id": "KZazBEonSMnZfZ7v6F1",
+                            "name": "Pop"
+                        },
+                        "family": false
+                    }
+                ],
+                "promoter": {
+                    "id": "3067",
+                    "name": "Music Circus Concertb\u00fcro GmbH & Co. KG"
+                },
+                "promoters": [
+                    {
+                        "id": "3067",
+                        "name": "Music Circus Concertb\u00fcro GmbH & Co. KG"
+                    }
+                ],
+                "priceRanges": [
+                    {
+                        "type": "standard",
+                        "currency": "EUR",
+                        "min": 26.63,
+                        "max": 26.63
+                    },
+                    {
+                        "type": "standard including fees",
+                        "currency": "EUR",
+                        "min": 29.99,
+                        "max": 29.99
+                    }
+                ],
+                "seatmap": {
+                    "staticUrl": "https://media.ticketmaster.eu/germany/e62126ba8c0d72821393dbf0f9e905de.png",
+                    "id": "seatmap"
+                },
+                "_links": {
+                    "self": {
+                        "href": "/discovery/v2/events/Z698xZC2Z174FZ-?locale=en-us"
+                    },
+                    "attractions": [
+                        {
+                            "href": "/discovery/v2/attractions/K8vZ917jDQV?locale=en-us"
+                        }
+                    ],
+                    "venues": [
+                        {
+                            "href": "/discovery/v2/venues/Z698xZC2Za7O4?locale=en-us"
+                        }
+                    ]
+                },
+                "_embedded": {
+                    "venues": [
+                        {
+                            "type": "venue",
+                            "id": "Z698xZC2Za7O4",
+                            "test": false,
+                            "url": "https://www.ticketmaster.de/venue/schraglage-stuttgart-tickets/stuschraeg/749",
+                            "locale": "en-us",
+                            "postalCode": "70173",
+                            "timezone": "Europe/Berlin",
+                            "city": {
+                                "name": "Stuttgart"
+                            },
+                            "country": {
+                                "name": "Germany",
+                                "countryCode": "DE"
+                            },
+                            "address": {
+                                "line1": "Hirschstra\u00dfe 14"
+                            },
+                            "location": {
+                                "longitude": "9.17705",
+                                "latitude": "48.77504"
+                            },
+                            "upcomingEvents": {
+                                "mfx-de": 8,
+                                "_total": 8,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/venues/Z698xZC2Za7O4?locale=en-us"
+                                }
+                            }
+                        }
+                    ],
+                    "attractions": [
+                        {
+                            "name": "Yu (IBB)",
+                            "type": "attraction",
+                            "id": "K8vZ917jDQV",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/yu-ibb-tickets/artist/3173473",
+                            "locale": "en-us",
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/f59/1528175e-04e9-4356-be14-9f43b07edf59_EVENT_DETAIL_PAGE_16_9.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/f59/1528175e-04e9-4356-be14-9f43b07edf59_RETINA_LANDSCAPE_16_9.jpg",
+                                    "width": 1136,
+                                    "height": 639,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/f59/1528175e-04e9-4356-be14-9f43b07edf59_TABLET_LANDSCAPE_16_9.jpg",
+                                    "width": 1024,
+                                    "height": 576,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/f59/1528175e-04e9-4356-be14-9f43b07edf59_RETINA_PORTRAIT_3_2.jpg",
+                                    "width": 640,
+                                    "height": 427,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/f59/1528175e-04e9-4356-be14-9f43b07edf59_RECOMENDATION_16_9.jpg",
+                                    "width": 100,
+                                    "height": 56,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/f59/1528175e-04e9-4356-be14-9f43b07edf59_TABLET_LANDSCAPE_3_2.jpg",
+                                    "width": 1024,
+                                    "height": 683,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/f59/1528175e-04e9-4356-be14-9f43b07edf59_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                                    "width": 2048,
+                                    "height": 1152,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "4_3",
+                                    "url": "https://s1.ticketm.net/dam/a/f59/1528175e-04e9-4356-be14-9f43b07edf59_CUSTOM.jpg",
+                                    "width": 305,
+                                    "height": 225,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/f59/1528175e-04e9-4356-be14-9f43b07edf59_ARTIST_PAGE_3_2.jpg",
+                                    "width": 305,
+                                    "height": 203,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/f59/1528175e-04e9-4356-be14-9f43b07edf59_RETINA_PORTRAIT_16_9.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                }
+                            ],
+                            "classifications": [
+                                {
+                                    "primary": true,
+                                    "segment": {
+                                        "id": "KZFzniwnSyZfZ7v7nJ",
+                                        "name": "Music"
+                                    },
+                                    "genre": {
+                                        "id": "KnvZfZ7vAeA",
+                                        "name": "Rock"
+                                    },
+                                    "subGenre": {
+                                        "id": "KZazBEonSMnZfZ7v6F1",
+                                        "name": "Pop"
+                                    },
+                                    "type": {
+                                        "id": "KZAyXgnZfZ7v7la",
+                                        "name": "Individual"
+                                    },
+                                    "subType": {
+                                        "id": "KZFzBErXgnZfZ7vAd7",
+                                        "name": "Musician"
+                                    },
+                                    "family": false
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "mfx-at": 2,
+                                "mfx-ch": 1,
+                                "mfx-de": 15,
+                                "_total": 18,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/attractions/K8vZ917jDQV?locale=en-us"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "MAMMA MIA! - Das Original-Musical",
+                "type": "event",
+                "id": "Z698xZC2Z17fIu4",
+                "test": false,
+                "url": "https://www.ticketmaster.de/event/mamma-mia-das-original-musical-tickets/528355?language=en-us",
+                "locale": "en-us",
+                "images": [
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                        "width": 2048,
+                        "height": 1152,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RETINA_PORTRAIT_16_9.jpg",
+                        "width": 640,
+                        "height": 360,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_SOURCE",
+                        "width": 2426,
+                        "height": 1365,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RECOMENDATION_16_9.jpg",
+                        "width": 100,
+                        "height": 56,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "4_3",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_CUSTOM.jpg",
+                        "width": 305,
+                        "height": 225,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_SOURCE",
+                        "width": 940,
+                        "height": 627,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_RETINA_LANDSCAPE_16_9.jpg",
+                        "width": 1136,
+                        "height": 639,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_16_9.jpg",
+                        "width": 1024,
+                        "height": 576,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_3_2.jpg",
+                        "width": 1024,
+                        "height": 683,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RETINA_PORTRAIT_3_2.jpg",
+                        "width": 640,
+                        "height": 427,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_ARTIST_PAGE_3_2.jpg",
+                        "width": 305,
+                        "height": 203,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_EVENT_DETAIL_PAGE_16_9.jpg",
+                        "width": 205,
+                        "height": 115,
+                        "fallback": false
+                    }
+                ],
+                "sales": {
+                    "public": {
+                        "startDateTime": "2023-11-16T09:00:00Z",
+                        "startTBD": false,
+                        "startTBA": false,
+                        "endDateTime": "2024-12-13T20:00:00Z"
+                    }
+                },
+                "dates": {
+                    "start": {
+                        "localDate": "2024-12-13",
+                        "localTime": "20:00:00",
+                        "dateTime": "2024-12-13T19:00:00Z",
+                        "dateTBD": false,
+                        "dateTBA": false,
+                        "timeTBA": false,
+                        "noSpecificTime": false
+                    },
+                    "timezone": "Europe/Berlin",
+                    "status": {
+                        "code": "onsale"
+                    },
+                    "spanMultipleDays": false
+                },
+                "classifications": [
+                    {
+                        "primary": true,
+                        "segment": {
+                            "id": "KZFzniwnSyZfZ7v7na",
+                            "name": "Arts & Theatre"
+                        },
+                        "genre": {
+                            "id": "KnvZfZ7v7l1",
+                            "name": "Theatre"
+                        },
+                        "subGenre": {
+                            "id": "KZazBEonSMnZfZ7vAve",
+                            "name": "Musical"
+                        },
+                        "family": false
+                    }
+                ],
+                "promoter": {
+                    "id": "14449",
+                    "name": "SKS Michael Russ GmbH"
+                },
+                "promoters": [
+                    {
+                        "id": "14449",
+                        "name": "SKS Michael Russ GmbH"
+                    }
+                ],
+                "priceRanges": [
+                    {
+                        "type": "standard including fees",
+                        "currency": "EUR",
+                        "min": 7.2,
+                        "max": 114.0
+                    },
+                    {
+                        "type": "standard",
+                        "currency": "EUR",
+                        "min": 44.7,
+                        "max": 90.7
+                    }
+                ],
+                "ticketing": {
+                    "safeTix": {
+                        "enabled": false,
+                        "inAppOnlyEnabled": false
+                    },
+                    "id": "ticketing"
+                },
+                "_links": {
+                    "self": {
+                        "href": "/discovery/v2/events/Z698xZC2Z17fIu4?locale=en-us"
+                    },
+                    "attractions": [
+                        {
+                            "href": "/discovery/v2/attractions/K8vZ9171LHV?locale=en-us"
+                        }
+                    ],
+                    "venues": [
+                        {
+                            "href": "/discovery/v2/venues/Z698xZC2ZaAru?locale=en-us"
+                        }
+                    ]
+                },
+                "_embedded": {
+                    "venues": [
+                        {
+                            "type": "venue",
+                            "id": "Z698xZC2ZaAru",
+                            "test": false,
+                            "url": "https://www.ticketmaster.de/venue/porsche-arena-stuttgart-tickets/stuporsche/753",
+                            "locale": "en-us",
+                            "postalCode": "70372",
+                            "timezone": "Europe/Berlin",
+                            "city": {
+                                "name": "Stuttgart"
+                            },
+                            "country": {
+                                "name": "Germany",
+                                "countryCode": "DE"
+                            },
+                            "address": {
+                                "line1": "Mercedesstra\u00dfe 69"
+                            },
+                            "location": {
+                                "longitude": "9.22772",
+                                "latitude": "48.79387"
+                            },
+                            "upcomingEvents": {
+                                "mfx-de": 19,
+                                "_total": 19,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/venues/Z698xZC2ZaAru?locale=en-us"
+                                }
+                            }
+                        }
+                    ],
+                    "attractions": [
+                        {
+                            "name": "Mamma Mia! (International)",
+                            "type": "attraction",
+                            "id": "K8vZ9171LHV",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/mamma-mia-international-tickets/artist/804014",
+                            "locale": "en-us",
+                            "aliases": [
+                                "mama mia",
+                                "mamma mia",
+                                "mama mia!",
+                                "momma mia"
+                            ],
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                                    "width": 2048,
+                                    "height": 1152,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RETINA_PORTRAIT_16_9.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_SOURCE",
+                                    "width": 2426,
+                                    "height": 1365,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RECOMENDATION_16_9.jpg",
+                                    "width": 100,
+                                    "height": 56,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "4_3",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_CUSTOM.jpg",
+                                    "width": 305,
+                                    "height": 225,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_SOURCE",
+                                    "width": 940,
+                                    "height": 627,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_RETINA_LANDSCAPE_16_9.jpg",
+                                    "width": 1136,
+                                    "height": 639,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_16_9.jpg",
+                                    "width": 1024,
+                                    "height": 576,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_3_2.jpg",
+                                    "width": 1024,
+                                    "height": 683,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RETINA_PORTRAIT_3_2.jpg",
+                                    "width": 640,
+                                    "height": 427,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_ARTIST_PAGE_3_2.jpg",
+                                    "width": 305,
+                                    "height": 203,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_EVENT_DETAIL_PAGE_16_9.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                }
+                            ],
+                            "classifications": [
+                                {
+                                    "primary": true,
+                                    "segment": {
+                                        "id": "KZFzniwnSyZfZ7v7na",
+                                        "name": "Arts & Theatre"
+                                    },
+                                    "genre": {
+                                        "id": "KnvZfZ7v7l1",
+                                        "name": "Theatre"
+                                    },
+                                    "subGenre": {
+                                        "id": "KZazBEonSMnZfZ7vAve",
+                                        "name": "Musical"
+                                    },
+                                    "type": {
+                                        "id": "KZAyXgnZfZ7v7nI",
+                                        "name": "Undefined"
+                                    },
+                                    "subType": {
+                                        "id": "KZFzBErXgnZfZ7v7lJ",
+                                        "name": "Undefined"
+                                    },
+                                    "family": false
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "ticketnet": 15,
+                                "mfx-at": 16,
+                                "mfx-be": 31,
+                                "ticketmaster": 355,
+                                "mfx-de": 45,
+                                "_total": 462,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/attractions/K8vZ9171LHV?locale=en-us"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "MAMMA MIA! - Das Original-Musical",
+                "type": "event",
+                "id": "Z698xZC2Z17fIug",
+                "test": false,
+                "url": "https://www.ticketmaster.de/event/mamma-mia-das-original-musical-tickets/528375?language=en-us",
+                "locale": "en-us",
+                "images": [
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                        "width": 2048,
+                        "height": 1152,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RETINA_PORTRAIT_16_9.jpg",
+                        "width": 640,
+                        "height": 360,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_SOURCE",
+                        "width": 2426,
+                        "height": 1365,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RECOMENDATION_16_9.jpg",
+                        "width": 100,
+                        "height": 56,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "4_3",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_CUSTOM.jpg",
+                        "width": 305,
+                        "height": 225,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_SOURCE",
+                        "width": 940,
+                        "height": 627,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_RETINA_LANDSCAPE_16_9.jpg",
+                        "width": 1136,
+                        "height": 639,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_16_9.jpg",
+                        "width": 1024,
+                        "height": 576,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_3_2.jpg",
+                        "width": 1024,
+                        "height": 683,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RETINA_PORTRAIT_3_2.jpg",
+                        "width": 640,
+                        "height": 427,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_ARTIST_PAGE_3_2.jpg",
+                        "width": 305,
+                        "height": 203,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_EVENT_DETAIL_PAGE_16_9.jpg",
+                        "width": 205,
+                        "height": 115,
+                        "fallback": false
+                    }
+                ],
+                "sales": {
+                    "public": {
+                        "startDateTime": "2023-11-16T09:00:00Z",
+                        "startTBD": false,
+                        "startTBA": false,
+                        "endDateTime": "2024-12-14T15:00:00Z"
+                    }
+                },
+                "dates": {
+                    "start": {
+                        "localDate": "2024-12-14",
+                        "localTime": "15:00:00",
+                        "dateTime": "2024-12-14T14:00:00Z",
+                        "dateTBD": false,
+                        "dateTBA": false,
+                        "timeTBA": false,
+                        "noSpecificTime": false
+                    },
+                    "timezone": "Europe/Berlin",
+                    "status": {
+                        "code": "onsale"
+                    },
+                    "spanMultipleDays": false
+                },
+                "classifications": [
+                    {
+                        "primary": true,
+                        "segment": {
+                            "id": "KZFzniwnSyZfZ7v7na",
+                            "name": "Arts & Theatre"
+                        },
+                        "genre": {
+                            "id": "KnvZfZ7v7l1",
+                            "name": "Theatre"
+                        },
+                        "subGenre": {
+                            "id": "KZazBEonSMnZfZ7vAve",
+                            "name": "Musical"
+                        },
+                        "family": false
+                    }
+                ],
+                "promoter": {
+                    "id": "14449",
+                    "name": "SKS Michael Russ GmbH"
+                },
+                "promoters": [
+                    {
+                        "id": "14449",
+                        "name": "SKS Michael Russ GmbH"
+                    }
+                ],
+                "priceRanges": [
+                    {
+                        "type": "standard including fees",
+                        "currency": "EUR",
+                        "min": 7.2,
+                        "max": 106.5
+                    },
+                    {
+                        "type": "standard",
+                        "currency": "EUR",
+                        "min": 33.0,
+                        "max": 86.33
+                    }
+                ],
+                "ticketing": {
+                    "safeTix": {
+                        "enabled": false,
+                        "inAppOnlyEnabled": false
+                    },
+                    "id": "ticketing"
+                },
+                "_links": {
+                    "self": {
+                        "href": "/discovery/v2/events/Z698xZC2Z17fIug?locale=en-us"
+                    },
+                    "attractions": [
+                        {
+                            "href": "/discovery/v2/attractions/K8vZ9171LHV?locale=en-us"
+                        }
+                    ],
+                    "venues": [
+                        {
+                            "href": "/discovery/v2/venues/Z698xZC2ZaAru?locale=en-us"
+                        }
+                    ]
+                },
+                "_embedded": {
+                    "venues": [
+                        {
+                            "type": "venue",
+                            "id": "Z698xZC2ZaAru",
+                            "test": false,
+                            "url": "https://www.ticketmaster.de/venue/porsche-arena-stuttgart-tickets/stuporsche/753",
+                            "locale": "en-us",
+                            "postalCode": "70372",
+                            "timezone": "Europe/Berlin",
+                            "city": {
+                                "name": "Stuttgart"
+                            },
+                            "country": {
+                                "name": "Germany",
+                                "countryCode": "DE"
+                            },
+                            "address": {
+                                "line1": "Mercedesstra\u00dfe 69"
+                            },
+                            "location": {
+                                "longitude": "9.22772",
+                                "latitude": "48.79387"
+                            },
+                            "upcomingEvents": {
+                                "mfx-de": 19,
+                                "_total": 19,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/venues/Z698xZC2ZaAru?locale=en-us"
+                                }
+                            }
+                        }
+                    ],
+                    "attractions": [
+                        {
+                            "name": "Mamma Mia! (International)",
+                            "type": "attraction",
+                            "id": "K8vZ9171LHV",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/mamma-mia-international-tickets/artist/804014",
+                            "locale": "en-us",
+                            "aliases": [
+                                "mama mia",
+                                "mamma mia",
+                                "mama mia!",
+                                "momma mia"
+                            ],
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                                    "width": 2048,
+                                    "height": 1152,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RETINA_PORTRAIT_16_9.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_SOURCE",
+                                    "width": 2426,
+                                    "height": 1365,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RECOMENDATION_16_9.jpg",
+                                    "width": 100,
+                                    "height": 56,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "4_3",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_CUSTOM.jpg",
+                                    "width": 305,
+                                    "height": 225,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_SOURCE",
+                                    "width": 940,
+                                    "height": 627,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_RETINA_LANDSCAPE_16_9.jpg",
+                                    "width": 1136,
+                                    "height": 639,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_16_9.jpg",
+                                    "width": 1024,
+                                    "height": 576,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_3_2.jpg",
+                                    "width": 1024,
+                                    "height": 683,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RETINA_PORTRAIT_3_2.jpg",
+                                    "width": 640,
+                                    "height": 427,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_ARTIST_PAGE_3_2.jpg",
+                                    "width": 305,
+                                    "height": 203,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_EVENT_DETAIL_PAGE_16_9.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                }
+                            ],
+                            "classifications": [
+                                {
+                                    "primary": true,
+                                    "segment": {
+                                        "id": "KZFzniwnSyZfZ7v7na",
+                                        "name": "Arts & Theatre"
+                                    },
+                                    "genre": {
+                                        "id": "KnvZfZ7v7l1",
+                                        "name": "Theatre"
+                                    },
+                                    "subGenre": {
+                                        "id": "KZazBEonSMnZfZ7vAve",
+                                        "name": "Musical"
+                                    },
+                                    "type": {
+                                        "id": "KZAyXgnZfZ7v7nI",
+                                        "name": "Undefined"
+                                    },
+                                    "subType": {
+                                        "id": "KZFzBErXgnZfZ7v7lJ",
+                                        "name": "Undefined"
+                                    },
+                                    "family": false
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "ticketnet": 15,
+                                "mfx-at": 16,
+                                "mfx-be": 31,
+                                "ticketmaster": 355,
+                                "mfx-de": 45,
+                                "_total": 462,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/attractions/K8vZ9171LHV?locale=en-us"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "MAMMA MIA! - Das Original-Musical",
+                "type": "event",
+                "id": "Z698xZC2Z17fIut",
+                "test": false,
+                "url": "https://www.ticketmaster.de/event/mamma-mia-das-original-musical-tickets/528369?language=en-us",
+                "locale": "en-us",
+                "images": [
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                        "width": 2048,
+                        "height": 1152,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RETINA_PORTRAIT_16_9.jpg",
+                        "width": 640,
+                        "height": 360,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_SOURCE",
+                        "width": 2426,
+                        "height": 1365,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RECOMENDATION_16_9.jpg",
+                        "width": 100,
+                        "height": 56,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "4_3",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_CUSTOM.jpg",
+                        "width": 305,
+                        "height": 225,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_SOURCE",
+                        "width": 940,
+                        "height": 627,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_RETINA_LANDSCAPE_16_9.jpg",
+                        "width": 1136,
+                        "height": 639,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_16_9.jpg",
+                        "width": 1024,
+                        "height": 576,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_3_2.jpg",
+                        "width": 1024,
+                        "height": 683,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RETINA_PORTRAIT_3_2.jpg",
+                        "width": 640,
+                        "height": 427,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_ARTIST_PAGE_3_2.jpg",
+                        "width": 305,
+                        "height": 203,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_EVENT_DETAIL_PAGE_16_9.jpg",
+                        "width": 205,
+                        "height": 115,
+                        "fallback": false
+                    }
+                ],
+                "sales": {
+                    "public": {
+                        "startDateTime": "2023-11-16T09:00:00Z",
+                        "startTBD": false,
+                        "startTBA": false,
+                        "endDateTime": "2024-12-14T20:00:00Z"
+                    }
+                },
+                "dates": {
+                    "start": {
+                        "localDate": "2024-12-14",
+                        "localTime": "20:00:00",
+                        "dateTime": "2024-12-14T19:00:00Z",
+                        "dateTBD": false,
+                        "dateTBA": false,
+                        "timeTBA": false,
+                        "noSpecificTime": false
+                    },
+                    "timezone": "Europe/Berlin",
+                    "status": {
+                        "code": "onsale"
+                    },
+                    "spanMultipleDays": false
+                },
+                "classifications": [
+                    {
+                        "primary": true,
+                        "segment": {
+                            "id": "KZFzniwnSyZfZ7v7na",
+                            "name": "Arts & Theatre"
+                        },
+                        "genre": {
+                            "id": "KnvZfZ7v7l1",
+                            "name": "Theatre"
+                        },
+                        "subGenre": {
+                            "id": "KZazBEonSMnZfZ7vAve",
+                            "name": "Musical"
+                        },
+                        "family": false
+                    }
+                ],
+                "promoter": {
+                    "id": "14449",
+                    "name": "SKS Michael Russ GmbH"
+                },
+                "promoters": [
+                    {
+                        "id": "14449",
+                        "name": "SKS Michael Russ GmbH"
+                    }
+                ],
+                "priceRanges": [
+                    {
+                        "type": "standard including fees",
+                        "currency": "EUR",
+                        "min": 7.2,
+                        "max": 111.5
+                    },
+                    {
+                        "type": "standard",
+                        "currency": "EUR",
+                        "min": 34.3,
+                        "max": 90.7
+                    }
+                ],
+                "ticketing": {
+                    "safeTix": {
+                        "enabled": false,
+                        "inAppOnlyEnabled": false
+                    },
+                    "id": "ticketing"
+                },
+                "_links": {
+                    "self": {
+                        "href": "/discovery/v2/events/Z698xZC2Z17fIut?locale=en-us"
+                    },
+                    "attractions": [
+                        {
+                            "href": "/discovery/v2/attractions/K8vZ9171LHV?locale=en-us"
+                        }
+                    ],
+                    "venues": [
+                        {
+                            "href": "/discovery/v2/venues/Z698xZC2ZaAru?locale=en-us"
+                        }
+                    ]
+                },
+                "_embedded": {
+                    "venues": [
+                        {
+                            "type": "venue",
+                            "id": "Z698xZC2ZaAru",
+                            "test": false,
+                            "url": "https://www.ticketmaster.de/venue/porsche-arena-stuttgart-tickets/stuporsche/753",
+                            "locale": "en-us",
+                            "postalCode": "70372",
+                            "timezone": "Europe/Berlin",
+                            "city": {
+                                "name": "Stuttgart"
+                            },
+                            "country": {
+                                "name": "Germany",
+                                "countryCode": "DE"
+                            },
+                            "address": {
+                                "line1": "Mercedesstra\u00dfe 69"
+                            },
+                            "location": {
+                                "longitude": "9.22772",
+                                "latitude": "48.79387"
+                            },
+                            "upcomingEvents": {
+                                "mfx-de": 19,
+                                "_total": 19,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/venues/Z698xZC2ZaAru?locale=en-us"
+                                }
+                            }
+                        }
+                    ],
+                    "attractions": [
+                        {
+                            "name": "Mamma Mia! (International)",
+                            "type": "attraction",
+                            "id": "K8vZ9171LHV",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/mamma-mia-international-tickets/artist/804014",
+                            "locale": "en-us",
+                            "aliases": [
+                                "mama mia",
+                                "mamma mia",
+                                "mama mia!",
+                                "momma mia"
+                            ],
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                                    "width": 2048,
+                                    "height": 1152,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RETINA_PORTRAIT_16_9.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_SOURCE",
+                                    "width": 2426,
+                                    "height": 1365,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RECOMENDATION_16_9.jpg",
+                                    "width": 100,
+                                    "height": 56,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "4_3",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_CUSTOM.jpg",
+                                    "width": 305,
+                                    "height": 225,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_SOURCE",
+                                    "width": 940,
+                                    "height": 627,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_RETINA_LANDSCAPE_16_9.jpg",
+                                    "width": 1136,
+                                    "height": 639,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_16_9.jpg",
+                                    "width": 1024,
+                                    "height": 576,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_3_2.jpg",
+                                    "width": 1024,
+                                    "height": 683,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RETINA_PORTRAIT_3_2.jpg",
+                                    "width": 640,
+                                    "height": 427,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_ARTIST_PAGE_3_2.jpg",
+                                    "width": 305,
+                                    "height": 203,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_EVENT_DETAIL_PAGE_16_9.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                }
+                            ],
+                            "classifications": [
+                                {
+                                    "primary": true,
+                                    "segment": {
+                                        "id": "KZFzniwnSyZfZ7v7na",
+                                        "name": "Arts & Theatre"
+                                    },
+                                    "genre": {
+                                        "id": "KnvZfZ7v7l1",
+                                        "name": "Theatre"
+                                    },
+                                    "subGenre": {
+                                        "id": "KZazBEonSMnZfZ7vAve",
+                                        "name": "Musical"
+                                    },
+                                    "type": {
+                                        "id": "KZAyXgnZfZ7v7nI",
+                                        "name": "Undefined"
+                                    },
+                                    "subType": {
+                                        "id": "KZFzBErXgnZfZ7v7lJ",
+                                        "name": "Undefined"
+                                    },
+                                    "family": false
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "ticketnet": 15,
+                                "mfx-at": 16,
+                                "mfx-be": 31,
+                                "ticketmaster": 355,
+                                "mfx-de": 45,
+                                "_total": 462,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/attractions/K8vZ9171LHV?locale=en-us"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "MAMMA MIA! - Das Original-Musical",
+                "type": "event",
+                "id": "Z698xZC2Z17fIuM",
+                "test": false,
+                "url": "https://www.ticketmaster.de/event/mamma-mia-das-original-musical-tickets/528377?language=en-us",
+                "locale": "en-us",
+                "images": [
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                        "width": 2048,
+                        "height": 1152,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RETINA_PORTRAIT_16_9.jpg",
+                        "width": 640,
+                        "height": 360,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_SOURCE",
+                        "width": 2426,
+                        "height": 1365,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RECOMENDATION_16_9.jpg",
+                        "width": 100,
+                        "height": 56,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "4_3",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_CUSTOM.jpg",
+                        "width": 305,
+                        "height": 225,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_SOURCE",
+                        "width": 940,
+                        "height": 627,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_RETINA_LANDSCAPE_16_9.jpg",
+                        "width": 1136,
+                        "height": 639,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_16_9.jpg",
+                        "width": 1024,
+                        "height": 576,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_3_2.jpg",
+                        "width": 1024,
+                        "height": 683,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RETINA_PORTRAIT_3_2.jpg",
+                        "width": 640,
+                        "height": 427,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_ARTIST_PAGE_3_2.jpg",
+                        "width": 305,
+                        "height": 203,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_EVENT_DETAIL_PAGE_16_9.jpg",
+                        "width": 205,
+                        "height": 115,
+                        "fallback": false
+                    }
+                ],
+                "sales": {
+                    "public": {
+                        "startDateTime": "2023-11-16T09:00:00Z",
+                        "startTBD": false,
+                        "startTBA": false,
+                        "endDateTime": "2024-12-15T13:00:00Z"
+                    }
+                },
+                "dates": {
+                    "start": {
+                        "localDate": "2024-12-15",
+                        "localTime": "13:00:00",
+                        "dateTime": "2024-12-15T12:00:00Z",
+                        "dateTBD": false,
+                        "dateTBA": false,
+                        "timeTBA": false,
+                        "noSpecificTime": false
+                    },
+                    "timezone": "Europe/Berlin",
+                    "status": {
+                        "code": "onsale"
+                    },
+                    "spanMultipleDays": false
+                },
+                "classifications": [
+                    {
+                        "primary": true,
+                        "segment": {
+                            "id": "KZFzniwnSyZfZ7v7na",
+                            "name": "Arts & Theatre"
+                        },
+                        "genre": {
+                            "id": "KnvZfZ7v7l1",
+                            "name": "Theatre"
+                        },
+                        "subGenre": {
+                            "id": "KZazBEonSMnZfZ7vAve",
+                            "name": "Musical"
+                        },
+                        "family": false
+                    }
+                ],
+                "promoter": {
+                    "id": "14449",
+                    "name": "SKS Michael Russ GmbH"
+                },
+                "promoters": [
+                    {
+                        "id": "14449",
+                        "name": "SKS Michael Russ GmbH"
+                    }
+                ],
+                "priceRanges": [
+                    {
+                        "type": "standard",
+                        "currency": "EUR",
+                        "min": 31.25,
+                        "max": 86.33
+                    },
+                    {
+                        "type": "standard including fees",
+                        "currency": "EUR",
+                        "min": 7.2,
+                        "max": 106.5
+                    }
+                ],
+                "ticketing": {
+                    "safeTix": {
+                        "enabled": false,
+                        "inAppOnlyEnabled": false
+                    },
+                    "id": "ticketing"
+                },
+                "_links": {
+                    "self": {
+                        "href": "/discovery/v2/events/Z698xZC2Z17fIuM?locale=en-us"
+                    },
+                    "attractions": [
+                        {
+                            "href": "/discovery/v2/attractions/K8vZ9171LHV?locale=en-us"
+                        }
+                    ],
+                    "venues": [
+                        {
+                            "href": "/discovery/v2/venues/Z698xZC2ZaAru?locale=en-us"
+                        }
+                    ]
+                },
+                "_embedded": {
+                    "venues": [
+                        {
+                            "type": "venue",
+                            "id": "Z698xZC2ZaAru",
+                            "test": false,
+                            "url": "https://www.ticketmaster.de/venue/porsche-arena-stuttgart-tickets/stuporsche/753",
+                            "locale": "en-us",
+                            "postalCode": "70372",
+                            "timezone": "Europe/Berlin",
+                            "city": {
+                                "name": "Stuttgart"
+                            },
+                            "country": {
+                                "name": "Germany",
+                                "countryCode": "DE"
+                            },
+                            "address": {
+                                "line1": "Mercedesstra\u00dfe 69"
+                            },
+                            "location": {
+                                "longitude": "9.22772",
+                                "latitude": "48.79387"
+                            },
+                            "upcomingEvents": {
+                                "mfx-de": 19,
+                                "_total": 19,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/venues/Z698xZC2ZaAru?locale=en-us"
+                                }
+                            }
+                        }
+                    ],
+                    "attractions": [
+                        {
+                            "name": "Mamma Mia! (International)",
+                            "type": "attraction",
+                            "id": "K8vZ9171LHV",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/mamma-mia-international-tickets/artist/804014",
+                            "locale": "en-us",
+                            "aliases": [
+                                "mama mia",
+                                "mamma mia",
+                                "mama mia!",
+                                "momma mia"
+                            ],
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                                    "width": 2048,
+                                    "height": 1152,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RETINA_PORTRAIT_16_9.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_SOURCE",
+                                    "width": 2426,
+                                    "height": 1365,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RECOMENDATION_16_9.jpg",
+                                    "width": 100,
+                                    "height": 56,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "4_3",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_CUSTOM.jpg",
+                                    "width": 305,
+                                    "height": 225,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_SOURCE",
+                                    "width": 940,
+                                    "height": 627,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_RETINA_LANDSCAPE_16_9.jpg",
+                                    "width": 1136,
+                                    "height": 639,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_16_9.jpg",
+                                    "width": 1024,
+                                    "height": 576,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_3_2.jpg",
+                                    "width": 1024,
+                                    "height": 683,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RETINA_PORTRAIT_3_2.jpg",
+                                    "width": 640,
+                                    "height": 427,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_ARTIST_PAGE_3_2.jpg",
+                                    "width": 305,
+                                    "height": 203,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_EVENT_DETAIL_PAGE_16_9.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                }
+                            ],
+                            "classifications": [
+                                {
+                                    "primary": true,
+                                    "segment": {
+                                        "id": "KZFzniwnSyZfZ7v7na",
+                                        "name": "Arts & Theatre"
+                                    },
+                                    "genre": {
+                                        "id": "KnvZfZ7v7l1",
+                                        "name": "Theatre"
+                                    },
+                                    "subGenre": {
+                                        "id": "KZazBEonSMnZfZ7vAve",
+                                        "name": "Musical"
+                                    },
+                                    "type": {
+                                        "id": "KZAyXgnZfZ7v7nI",
+                                        "name": "Undefined"
+                                    },
+                                    "subType": {
+                                        "id": "KZFzBErXgnZfZ7v7lJ",
+                                        "name": "Undefined"
+                                    },
+                                    "family": false
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "ticketnet": 15,
+                                "mfx-at": 16,
+                                "mfx-be": 31,
+                                "ticketmaster": 355,
+                                "mfx-de": 45,
+                                "_total": 462,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/attractions/K8vZ9171LHV?locale=en-us"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "MAMMA MIA! - Das Original-Musical",
+                "type": "event",
+                "id": "Z698xZC2Z17fIuy",
+                "test": false,
+                "url": "https://www.ticketmaster.de/event/mamma-mia-das-original-musical-tickets/528379?language=en-us",
+                "locale": "en-us",
+                "images": [
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                        "width": 2048,
+                        "height": 1152,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RETINA_PORTRAIT_16_9.jpg",
+                        "width": 640,
+                        "height": 360,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_SOURCE",
+                        "width": 2426,
+                        "height": 1365,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RECOMENDATION_16_9.jpg",
+                        "width": 100,
+                        "height": 56,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "4_3",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_CUSTOM.jpg",
+                        "width": 305,
+                        "height": 225,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_SOURCE",
+                        "width": 940,
+                        "height": 627,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_RETINA_LANDSCAPE_16_9.jpg",
+                        "width": 1136,
+                        "height": 639,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_16_9.jpg",
+                        "width": 1024,
+                        "height": 576,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_3_2.jpg",
+                        "width": 1024,
+                        "height": 683,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RETINA_PORTRAIT_3_2.jpg",
+                        "width": 640,
+                        "height": 427,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_ARTIST_PAGE_3_2.jpg",
+                        "width": 305,
+                        "height": 203,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_EVENT_DETAIL_PAGE_16_9.jpg",
+                        "width": 205,
+                        "height": 115,
+                        "fallback": false
+                    }
+                ],
+                "sales": {
+                    "public": {
+                        "startDateTime": "2023-11-16T09:00:00Z",
+                        "startTBD": false,
+                        "startTBA": false,
+                        "endDateTime": "2024-12-15T18:00:00Z"
+                    }
+                },
+                "dates": {
+                    "start": {
+                        "localDate": "2024-12-15",
+                        "localTime": "18:00:00",
+                        "dateTime": "2024-12-15T17:00:00Z",
+                        "dateTBD": false,
+                        "dateTBA": false,
+                        "timeTBA": false,
+                        "noSpecificTime": false
+                    },
+                    "timezone": "Europe/Berlin",
+                    "status": {
+                        "code": "onsale"
+                    },
+                    "spanMultipleDays": false
+                },
+                "classifications": [
+                    {
+                        "primary": true,
+                        "segment": {
+                            "id": "KZFzniwnSyZfZ7v7na",
+                            "name": "Arts & Theatre"
+                        },
+                        "genre": {
+                            "id": "KnvZfZ7v7l1",
+                            "name": "Theatre"
+                        },
+                        "subGenre": {
+                            "id": "KZazBEonSMnZfZ7vAve",
+                            "name": "Musical"
+                        },
+                        "family": false
+                    }
+                ],
+                "promoter": {
+                    "id": "14449",
+                    "name": "SKS Michael Russ GmbH"
+                },
+                "promoters": [
+                    {
+                        "id": "14449",
+                        "name": "SKS Michael Russ GmbH"
+                    }
+                ],
+                "priceRanges": [
+                    {
+                        "type": "standard including fees",
+                        "currency": "EUR",
+                        "min": 7.2,
+                        "max": 106.5
+                    },
+                    {
+                        "type": "standard",
+                        "currency": "EUR",
+                        "min": 33.0,
+                        "max": 86.33
+                    }
+                ],
+                "ticketing": {
+                    "safeTix": {
+                        "enabled": false,
+                        "inAppOnlyEnabled": false
+                    },
+                    "id": "ticketing"
+                },
+                "_links": {
+                    "self": {
+                        "href": "/discovery/v2/events/Z698xZC2Z17fIuy?locale=en-us"
+                    },
+                    "attractions": [
+                        {
+                            "href": "/discovery/v2/attractions/K8vZ9171LHV?locale=en-us"
+                        }
+                    ],
+                    "venues": [
+                        {
+                            "href": "/discovery/v2/venues/Z698xZC2ZaAru?locale=en-us"
+                        }
+                    ]
+                },
+                "_embedded": {
+                    "venues": [
+                        {
+                            "type": "venue",
+                            "id": "Z698xZC2ZaAru",
+                            "test": false,
+                            "url": "https://www.ticketmaster.de/venue/porsche-arena-stuttgart-tickets/stuporsche/753",
+                            "locale": "en-us",
+                            "postalCode": "70372",
+                            "timezone": "Europe/Berlin",
+                            "city": {
+                                "name": "Stuttgart"
+                            },
+                            "country": {
+                                "name": "Germany",
+                                "countryCode": "DE"
+                            },
+                            "address": {
+                                "line1": "Mercedesstra\u00dfe 69"
+                            },
+                            "location": {
+                                "longitude": "9.22772",
+                                "latitude": "48.79387"
+                            },
+                            "upcomingEvents": {
+                                "mfx-de": 19,
+                                "_total": 19,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/venues/Z698xZC2ZaAru?locale=en-us"
+                                }
+                            }
+                        }
+                    ],
+                    "attractions": [
+                        {
+                            "name": "Mamma Mia! (International)",
+                            "type": "attraction",
+                            "id": "K8vZ9171LHV",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/mamma-mia-international-tickets/artist/804014",
+                            "locale": "en-us",
+                            "aliases": [
+                                "mama mia",
+                                "mamma mia",
+                                "mama mia!",
+                                "momma mia"
+                            ],
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                                    "width": 2048,
+                                    "height": 1152,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RETINA_PORTRAIT_16_9.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_SOURCE",
+                                    "width": 2426,
+                                    "height": 1365,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RECOMENDATION_16_9.jpg",
+                                    "width": 100,
+                                    "height": 56,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "4_3",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_CUSTOM.jpg",
+                                    "width": 305,
+                                    "height": 225,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_SOURCE",
+                                    "width": 940,
+                                    "height": 627,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_RETINA_LANDSCAPE_16_9.jpg",
+                                    "width": 1136,
+                                    "height": 639,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_16_9.jpg",
+                                    "width": 1024,
+                                    "height": 576,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/4be/293e23c3-421a-4af4-87e8-1ebc8caaf4be_1842371_TABLET_LANDSCAPE_3_2.jpg",
+                                    "width": 1024,
+                                    "height": 683,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_RETINA_PORTRAIT_3_2.jpg",
+                                    "width": 640,
+                                    "height": 427,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_ARTIST_PAGE_3_2.jpg",
+                                    "width": 305,
+                                    "height": 203,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/eab/cb0fdf01-ad37-4ac7-a184-7c3b2b8d0eab_EVENT_DETAIL_PAGE_16_9.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                }
+                            ],
+                            "classifications": [
+                                {
+                                    "primary": true,
+                                    "segment": {
+                                        "id": "KZFzniwnSyZfZ7v7na",
+                                        "name": "Arts & Theatre"
+                                    },
+                                    "genre": {
+                                        "id": "KnvZfZ7v7l1",
+                                        "name": "Theatre"
+                                    },
+                                    "subGenre": {
+                                        "id": "KZazBEonSMnZfZ7vAve",
+                                        "name": "Musical"
+                                    },
+                                    "type": {
+                                        "id": "KZAyXgnZfZ7v7nI",
+                                        "name": "Undefined"
+                                    },
+                                    "subType": {
+                                        "id": "KZFzBErXgnZfZ7v7lJ",
+                                        "name": "Undefined"
+                                    },
+                                    "family": false
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "ticketnet": 15,
+                                "mfx-at": 16,
+                                "mfx-be": 31,
+                                "ticketmaster": 355,
+                                "mfx-de": 45,
+                                "_total": 462,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/attractions/K8vZ9171LHV?locale=en-us"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Elvana",
+                "type": "event",
+                "id": "Z698xZC2Z174Kq-",
+                "test": false,
+                "url": "https://www.ticketmaster.de/event/elvana-tickets/553761?language=en-us",
+                "locale": "en-us",
+                "images": [
+                    {
+                        "ratio": "4_3",
+                        "url": "https://s1.ticketm.net/dam/a/28f/e55331a4-9db7-44da-b14d-4322253d828f_CUSTOM.jpg",
+                        "width": 305,
+                        "height": 225,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/28f/e55331a4-9db7-44da-b14d-4322253d828f_RECOMENDATION_16_9.jpg",
+                        "width": 100,
+                        "height": 56,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/28f/e55331a4-9db7-44da-b14d-4322253d828f_RETINA_PORTRAIT_16_9.jpg",
+                        "width": 640,
+                        "height": 360,
+                        "fallback": false
+                    },
+                    {
+                        "url": "https://s1.ticketm.net/dam/a/28f/e55331a4-9db7-44da-b14d-4322253d828f_SOURCE",
+                        "width": 2362,
+                        "height": 3130,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/28f/e55331a4-9db7-44da-b14d-4322253d828f_RETINA_LANDSCAPE_16_9.jpg",
+                        "width": 1136,
+                        "height": 639,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/28f/e55331a4-9db7-44da-b14d-4322253d828f_EVENT_DETAIL_PAGE_16_9.jpg",
+                        "width": 205,
+                        "height": 115,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/28f/e55331a4-9db7-44da-b14d-4322253d828f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                        "width": 2048,
+                        "height": 1152,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/28f/e55331a4-9db7-44da-b14d-4322253d828f_ARTIST_PAGE_3_2.jpg",
+                        "width": 305,
+                        "height": 203,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/28f/e55331a4-9db7-44da-b14d-4322253d828f_TABLET_LANDSCAPE_3_2.jpg",
+                        "width": 1024,
+                        "height": 683,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/28f/e55331a4-9db7-44da-b14d-4322253d828f_TABLET_LANDSCAPE_16_9.jpg",
+                        "width": 1024,
+                        "height": 576,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/28f/e55331a4-9db7-44da-b14d-4322253d828f_RETINA_PORTRAIT_3_2.jpg",
+                        "width": 640,
+                        "height": 427,
+                        "fallback": false
+                    }
+                ],
+                "sales": {
+                    "public": {
+                        "startDateTime": "2024-10-03T08:00:00Z",
+                        "startTBD": false,
+                        "startTBA": false,
+                        "endDateTime": "2025-01-22T22:59:00Z"
+                    }
+                },
+                "dates": {
+                    "access": {
+                        "startDateTime": "2025-10-22T19:00:00Z",
+                        "startApproximate": false,
+                        "endApproximate": false
+                    },
+                    "start": {
+                        "localDate": "2025-01-22",
+                        "localTime": "19:30:00",
+                        "dateTime": "2025-01-22T18:30:00Z",
+                        "dateTBD": false,
+                        "dateTBA": false,
+                        "timeTBA": false,
+                        "noSpecificTime": false
+                    },
+                    "timezone": "Europe/Berlin",
+                    "status": {
+                        "code": "onsale"
+                    },
+                    "spanMultipleDays": false
+                },
+                "classifications": [
+                    {
+                        "primary": true,
+                        "segment": {
+                            "id": "KZFzniwnSyZfZ7v7nJ",
+                            "name": "Music"
+                        },
+                        "genre": {
+                            "id": "KnvZfZ7vAvl",
+                            "name": "Other"
+                        },
+                        "subGenre": {
+                            "id": "KZazBEonSMnZfZ7vk1I",
+                            "name": "Other"
+                        },
+                        "family": false
+                    }
+                ],
+                "promoter": {
+                    "id": "9295",
+                    "name": "x-why-z Konzertagentur GmbH & Co. KG"
+                },
+                "promoters": [
+                    {
+                        "id": "9295",
+                        "name": "x-why-z Konzertagentur GmbH & Co. KG"
+                    }
+                ],
+                "priceRanges": [
+                    {
+                        "type": "standard including fees",
+                        "currency": "EUR",
+                        "min": 29.75,
+                        "max": 29.75
+                    },
+                    {
+                        "type": "standard",
+                        "currency": "EUR",
+                        "min": 25.0,
+                        "max": 25.0
+                    }
+                ],
+                "seatmap": {
+                    "staticUrl": "https://media.ticketmaster.eu/germany/3bb758298d0ee835f6adf97c0b87bb64.png",
+                    "id": "seatmap"
+                },
+                "_links": {
+                    "self": {
+                        "href": "/discovery/v2/events/Z698xZC2Z174Kq-?locale=en-us"
+                    },
+                    "attractions": [
+                        {
+                            "href": "/discovery/v2/attractions/K8vZ917p1Rf?locale=en-us"
+                        }
+                    ],
+                    "venues": [
+                        {
+                            "href": "/discovery/v2/venues/Z698xZC2Za6-A?locale=en-us"
+                        }
+                    ]
+                },
+                "_embedded": {
+                    "venues": [
+                        {
+                            "type": "venue",
+                            "id": "Z698xZC2Za6-A",
+                            "test": false,
+                            "url": "https://www.ticketmaster.de/venue/im-wizemann-studio--stuttgart-tickets/stuimwizst/749",
+                            "locale": "en-us",
+                            "postalCode": "70376",
+                            "timezone": "Europe/Berlin",
+                            "city": {
+                                "name": "Stuttgart"
+                            },
+                            "country": {
+                                "name": "Germany",
+                                "countryCode": "DE"
+                            },
+                            "address": {
+                                "line1": "Quellenstra\u00dfe 7"
+                            },
+                            "location": {
+                                "longitude": "9.20101",
+                                "latitude": "48.80816"
+                            },
+                            "upcomingEvents": {
+                                "mfx-de": 6,
+                                "_total": 6,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/venues/Z698xZC2Za6-A?locale=en-us"
+                                }
+                            }
+                        }
+                    ],
+                    "attractions": [
+                        {
+                            "name": "Elvana",
+                            "type": "attraction",
+                            "id": "K8vZ917p1Rf",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/elvana-tickets/artist/2398006",
+                            "locale": "en-us",
+                            "externalLinks": {
+                                "youtube": [
+                                    {
+                                        "url": "https://www.youtube.com/c/ElvanaTheWorldsFinestElvisFrontedNirvanaTribute"
+                                    }
+                                ],
+                                "facebook": [
+                                    {
+                                        "url": "https://www.facebook.com/elvanaelvisfrontednirvana/"
+                                    }
+                                ],
+                                "instagram": [
+                                    {
+                                        "url": "https://www.instagram.com/elvisfrontednirvana/?hl=en"
+                                    }
+                                ],
+                                "homepage": [
+                                    {
+                                        "url": "https://www.elvana.co.uk/"
+                                    }
+                                ]
+                            },
+                            "images": [
+                                {
+                                    "ratio": "4_3",
+                                    "url": "https://s1.ticketm.net/dam/a/28f/e55331a4-9db7-44da-b14d-4322253d828f_CUSTOM.jpg",
+                                    "width": 305,
+                                    "height": 225,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/28f/e55331a4-9db7-44da-b14d-4322253d828f_RECOMENDATION_16_9.jpg",
+                                    "width": 100,
+                                    "height": 56,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/28f/e55331a4-9db7-44da-b14d-4322253d828f_RETINA_PORTRAIT_16_9.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                },
+                                {
+                                    "url": "https://s1.ticketm.net/dam/a/28f/e55331a4-9db7-44da-b14d-4322253d828f_SOURCE",
+                                    "width": 2362,
+                                    "height": 3130,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/28f/e55331a4-9db7-44da-b14d-4322253d828f_RETINA_LANDSCAPE_16_9.jpg",
+                                    "width": 1136,
+                                    "height": 639,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/28f/e55331a4-9db7-44da-b14d-4322253d828f_EVENT_DETAIL_PAGE_16_9.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/28f/e55331a4-9db7-44da-b14d-4322253d828f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                                    "width": 2048,
+                                    "height": 1152,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/28f/e55331a4-9db7-44da-b14d-4322253d828f_ARTIST_PAGE_3_2.jpg",
+                                    "width": 305,
+                                    "height": 203,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/28f/e55331a4-9db7-44da-b14d-4322253d828f_TABLET_LANDSCAPE_3_2.jpg",
+                                    "width": 1024,
+                                    "height": 683,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/28f/e55331a4-9db7-44da-b14d-4322253d828f_TABLET_LANDSCAPE_16_9.jpg",
+                                    "width": 1024,
+                                    "height": 576,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/28f/e55331a4-9db7-44da-b14d-4322253d828f_RETINA_PORTRAIT_3_2.jpg",
+                                    "width": 640,
+                                    "height": 427,
+                                    "fallback": false
+                                }
+                            ],
+                            "classifications": [
+                                {
+                                    "primary": true,
+                                    "segment": {
+                                        "id": "KZFzniwnSyZfZ7v7nJ",
+                                        "name": "Music"
+                                    },
+                                    "genre": {
+                                        "id": "KnvZfZ7vAe6",
+                                        "name": "Undefined"
+                                    },
+                                    "subGenre": {
+                                        "id": "KZazBEonSMnZfZ7v6JI",
+                                        "name": "Undefined"
+                                    },
+                                    "type": {
+                                        "id": "KZAyXgnZfZ7v7l1",
+                                        "name": "Group"
+                                    },
+                                    "subType": {
+                                        "id": "KZFzBErXgnZfZ7vAAI",
+                                        "name": "Tribute Band"
+                                    },
+                                    "family": false
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "mfx-nl": 1,
+                                "ticketmaster": 18,
+                                "mfx-de": 8,
+                                "_total": 27,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/attractions/K8vZ917p1Rf?locale=en-us"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "_links": {
+        "first": {
+            "href": "/discovery/v2/events.json?city=Stuttgart&radius=100&page=0&size=10"
+        },
+        "self": {
+            "href": "/discovery/v2/events.json?size=10&city=Stuttgart&radius=100"
+        },
+        "next": {
+            "href": "/discovery/v2/events.json?city=Stuttgart&radius=100&page=1&size=10"
+        },
+        "last": {
+            "href": "/discovery/v2/events.json?city=Stuttgart&radius=100&page=4&size=10"
+        }
+    },
+    "page": {
+        "size": 10,
+        "totalElements": 44,
+        "totalPages": 5,
+        "number": 0
+    }
+}
