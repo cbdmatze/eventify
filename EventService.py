@@ -54,7 +54,7 @@ class EventService:
         Save the raw event data to a file called 'events_data.json'.
         """
         try:
-            with open('events_data.json', 'w') as file:
+            with open('data/events_data.json', 'w') as file:
                 json.dump(event_data, file, indent=4)
             print("Event data saved to 'events_data.json'.")
         except IOError as e:
@@ -63,7 +63,7 @@ class EventService:
 
 if __name__ == "__main__":
     api_key = "8yHnQv1827D9Gtj6HhnmDIqLBU2zB4CA"  
-    city = "Berlin"  # Example city
+    city = "Stuttgart"  # Example city
     
     event_service = EventService(api_key)
     events = event_service.get_local_events(city)
