@@ -9,21 +9,26 @@ class MasterSchoolSMSProvider(ISmsProvider):
     def un_register_number(self, number: int):
         pass
 
-    def register_number(self, number: int):
+    def register_number(self, number: str):
         endpoint = "team/registerNumber"
         json_body = {
             "phoneNumber": number,
             "teamName": f"{BASE_TEAM_NAME}"
         }
-        response = self.call_api("POST", endpoint, json_body=json_body)
+        return self.call_api("POST", endpoint, json_body=json_body)
 
-        return {"status": "success", "message": f"Number {number} registered successfully"}
 
     def get_messages(self):
         pass
 
-    def send_sms(self, to: str, message: str):
-        pass
+    def send_sms(self, to: int, message: str):
+        endpoint = "sms/send"
+        json_body ={
+            "phoneNumber": to,
+            "message":message,
+            "sender": f"{BASE_TEAM_NAME}"
+        }
+        return self.call_api("POST", endpoint, json_body=json_body)
 
     def addNewTeam(self, team_name):
         endpoint = "team/addNewTeam"
