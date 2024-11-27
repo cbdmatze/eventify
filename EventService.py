@@ -1,75 +1,86 @@
+
 import requests
 import json
 
 class EventService:
-    def __init__(self, api_key):
+    """
+    Service class for interacting with the Ticketmaster API to fetch local events.
+    """
+
+    def __init__(self, api_key: str):
+        """
+        Initializes the EventService with the given API key.
+
+        Args:
+            api_key (str): The API key for Ticketmaster.
+        """
         self.api_url = "https://app.ticketmaster.com/discovery/v2/events.json"
         self.api_key = api_key
 
-    def get_local_events(self, city):
+    def get_local_events(self, city: str):
         """
-        Fetch events happening near the given city and store the response in a file.
+        Fetches local events from Ticketmaster based on the given city.
+
+        Args:
+            city (str): The city for which to fetch events.
+
+        Returns:
+            list: A list of event dictionaries with event details, or None on failure.
         """
         params = {
             'apikey': self.api_key,
-            'city': city,       # Pass the city dynamically
-            'radius': '100',    # Search radius in kilometers
-            'size': '10'        # Limit the number of events returned
+            'city': city,
+            'radius': '100',
+            'size': '10'
         }
 
         response = requests.get(self.api_url, params=params)
 
         if response.status_code == 200:
             event_data = response.json()
-            self.save_event_data_to_file(event_data)  # Save response to file
-            return self.extract_event_info(event_data)
+            events = self.extract_event_info(event_data)
+            self.save_event_data_to_json(events, 'data/user_data.json')
+            return events
         else:
             print(f"Error fetching events: {response.status_code}")
             return None
 
-    def extract_event_info(self, event_data):
+    def extract_event_info(self, event_data: dict):
         """
-        Extract and format the event information for SMS notification.
+        Extracts event information from the API response.
+
+        Args:
+            event_data (dict): The raw event data from the Ticketmaster API.
+
+        Returns:
+            list: A list of events with relevant details.
         """
         events = []
         if '_embedded' in event_data:
             for event in event_data['_embedded']['events']:
-                # Safely get venue information if it exists
                 venue = event['_embedded'].get('venues', [{}])[0]
-                venue_name = venue.get('name', "Venue not available")
-                
-                # Safely get event URL
-                event_url = event.get('url', "Link not available")
-
                 events.append({
                     'name': event.get('name', 'Event name not available'),
                     'date': event['dates']['start'].get('localDate', 'Date not available'),
-                    'venue': venue_name,
-                    'url': event_url
+                    'venue': venue.get('name', "Venue not available"),
+                    'url': event.get('url', "Link not available")
                 })
         return events
 
-    def save_event_data_to_file(self, event_data):
+    def save_event_data_to_json(self, events: list, filename: str):
         """
-        Save the raw event data to a file called 'events_data.json'.
+        Saves the event data to a JSON file.
+
+        Args:
+            events (list): The list of events to save.
+            filename (str): The file to save the events to.
         """
         try:
-            with open('data/events_data.json', 'w') as file:
-                json.dump(event_data, file, indent=4)
-            print("Event data saved to 'events_data.json'.")
-        except IOError as e:
-            print(f"Error saving event data to file: {e}")
-
-
-if __name__ == "__main__":
-    api_key = "8yHnQv1827D9Gtj6HhnmDIqLBU2zB4CA"  
-    city = "Stuttgart"  # Example city
-    
-    event_service = EventService(api_key)
-    events = event_service.get_local_events(city)
-
-    if events:
-        for event in events:
-            print(f"Event: {event['name']}\nDate: {event['date']}\nVenue: {event['venue']}\nLink: {event['url']}\n")
-    else:
-        print("No events found.")
+            with open(filename, 'r+') as file:
+                data = json.load(file)
+                data['events'] = events
+                file.seek(0)
+                json.dump(data, file, indent=4)
+        except FileNotFoundError:
+            with open(filename, 'w') as file:
+                json.dump({'events': events}, file, indent=4)
