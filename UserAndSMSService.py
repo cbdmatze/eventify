@@ -48,10 +48,26 @@ class UserAndSMSService:
 
     def save_user_data(self, user_data):
         """
-        Saves the user data to a JSON file.
+        Saves the user data to a JSON file. 
+        If the file already exists, it appends the new user to the existing data.
         """
+        try:
+            # Load existing data
+            with open(self.data_file, 'r') as f:
+                data = json.load(f)
+        except FileNotFoundError:
+            # If file does not exist, start with an empty list
+            data = []
+        except json.JSONDecodeError:
+            # If file is empty or corrupted, reset to empty list
+            data = []
+
+        # Append the new user data
+        data.append(user_data)
+
+        # Save the updated list back to the file
         with open(self.data_file, 'w') as f:
-            json.dump(user_data, f)
+            json.dump(data, f, indent=4)
 
     def retrieve_user_data(self):
         """
