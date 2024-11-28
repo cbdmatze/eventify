@@ -44,7 +44,7 @@ class EventService:
     def save_user_data(self, user_phone, data):
         try:
             # Load existing data
-            with open('user_data.json', 'r') as f:
+            with open('data/user_data.json', 'r') as f:
                 user_data = json.load(f)
         except FileNotFoundError:
             user_data = {}
@@ -56,5 +56,5 @@ class EventService:
         user_data[user_phone].update(data)
 
         # Save back to user_data.json
-        with open('user_data.json', 'w') as f:
+        with open('data/user_data.json', 'w') as f:
             json.dump(user_data, f, indent=4)

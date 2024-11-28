@@ -8,7 +8,7 @@ from WeatherService import WeatherService
 
 # Constants
 API_KEY_TICKETMASTER = "8yHnQv1827D9Gtj6HhnmDIqLBU2zB4CA"
-API_KEY_WEATHER = "6R6EZ6N2WTV4PX5JXP84SJQX4"
+API_KEY_WEATHER = "HLU729E56SMY3M2FCQJLCXEYM"
 
 # Main application logic
 class MainApp:
@@ -61,7 +61,7 @@ class MainApp:
             weather_data = self.weather_app.get_weather_data(city, phone_number)
 
             # Get events using Ticketmaster API
-            events = self.event_service.get_local_events(city)
+            events = self.event_service.get_local_events(city, phone_number)
 
             # Prepare the SMS content
             current_weather = weather_data.get('currentConditions', {})
