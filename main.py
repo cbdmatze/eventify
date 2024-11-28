@@ -1,5 +1,5 @@
 from SMSService.Services.MasterSchoolSMSProvider import MasterSchoolSMSProvider
-from EventService import EventServic
+from EventService import EventService
 from HolidayService.Controller.HolidayController import HolidayController
 from HolidayService.Services.NagerHolidayProvider import NagerHolidayProvider
 from WeatherService import WeatherService
