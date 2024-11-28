@@ -1,113 +1,89 @@
-import os
 import json
-from flask import Flask, render_template
-from datetime import datetime
-from WeatherService import WeatherService
+from datetime import datetime, timedelta
+from SMSService.Services.MasterSchoolSMSProvider import MasterSchoolSMSProvider
+from HolidayService.Services.NagerHolidayProvider import NagerHolidayProvider
 from EventService import EventService
-from HolidayService import HolidayService
+from WeatherService import WeatherService
 
+# Constants
+API_KEY_TICKETMASTER = "8yHnQv1827D9Gtj6HhnmDIqLBU2zB4CA"
+API_KEY_WEATHER = "6R6EZ6N2WTV4PX5JXP84SJQX4"
 
-app = Flask(__name__)
+# Main application logic
+class MainApp:
+    def __init__(self):
+        self.sms_provider = MasterSchoolSMSProvider()
+        self.holiday_provider = NagerHolidayProvider()
+        self.event_service = EventService(API_KEY_TICKETMASTER)
+        self.weather_app = WeatherService(API_KEY_WEATHER)
 
-# API keys (later from .env)
-HOLIDAY_API_KEY = '4a7afdb5-2de7-4c6d-90d0-2038b050b9f6'
-TICKETMASTER_API_KEY = '8yHnQv1827D9Gtj6HhnmDIqLBU2zB4CA'
-VISUALCROSSING_API_KEY = '6R6EZ6N2WTV4PX5JXP84SJQX4'
+    def onboard_user(self):
+        # Collect user details for onboarding
+        print("Welcome! Please enter your details.")
+        phone_number = input("Enter your phone number: ")
+        name = input("Enter your name: ")
+        city = input("Enter your city: ")
+        postal_code = input("Enter your postal code: ")
 
-# Data directories
-HTML_DIR = 'html_summaries'
-EVENTS_DATA_FILE = 'data/events_data.json'
-WEATHER_DATA_FILE = 'data/weather_data.json'
-HOLIDAYS_DATA_FILE = 'data/holiday_data.json'
+        # Register user via SMS provider
+        self.sms_provider.register_number(int(phone_number))
+        print(f"Welcome, {name} from {city} ({postal_code})!")
 
+        # Send an initial SMS asking if they want to receive holiday info
+        self.sms_provider.send_sms(int(phone_number), "Hi, do you want information about the next upcoming holidays? (y/n)")
 
-@app.route('/summary/<user_id>')
-def display_summary(user_id):
-    """
-    Route to display the user-specific summary page.
-    """
-    html_file_path = os.path.join(HTML_DIR, f'{user_id}_summary.html')
-    if os.path.exists(html_file_path):
-        return render_template(f'{user_id}_summary.html')
-    else:
-        return "Summary not available", 404
-    
+        # Wait for the response from user
+        response = input("Wait for user response (y/n): ").strip().lower()
+        if response == "y":
+            self.provide_holiday_info(city, postal_code, phone_number)  # Pass phone_number here
+        else:
+            print("Okay, have a great day!")
 
-def create_summary_html(user_id, city, postal_code):
-    """
-    Function to fetch data form the APIs, generate the HTML summary, and save it.
-    """
-    # Fetch weather data
-    weather_service = WeatherService(VISUALCROSSING_API_KEY)
-    weather_service.fetch_and_save_weather(city, WEATHER_DATA_FILE)
+    def provide_holiday_info(self, city, postal_code, phone_number):
+        # Get the next holiday from NagerHolidayProvider
+        holidays = self.holiday_provider.get_next_holidays("DE")
+        if holidays:
+            holiday = holidays[0]
+            holiday_name = holiday["name"]
+            holiday_date = holiday["date"]
 
-    # Fetch event data
-    event_service = EventService(TICKETMASTER_API_KEY)
-    events = event_service.get_local_events(city)
+            print(f"The next holiday is {holiday_name} on {holiday_date}.")
+            
+            # Get weather for that holiday using the WeatherService
+            self.weather_app.fetch_and_save_weather(city, 'data/weather_data.json')
 
-    # Fetch holiday data
-    holiday_service = HolidayService(HOLIDAY_API_KEY)
-    holidays = holiday_service.get_holidays('DE', datetime.now().year)
-    upcoming_holiday = holiday_service.get_upcoming_holiday(holidays)
+            # Get events using Ticketmaster API
+            events = self.event_service.get_local_events(city)
 
-    # Generate HTML content
-    html_content = generate_html_content(events, weather_app, upcoming_holiday)
-    
-    # Save the HTML to file
-    html_file_path = os.path.join(HTML_DIR, f'{user_id}_summary.html')
-    with open(html_file_path, 'w', encoding='utf-8') as f:
-        f.write(html_content)
-    
-    print(f"Summary HTML created for user {user_id}")
+            # Prepare the SMS content
+            weather_data = self.weather_app.weather_storage.load_weather_data_from_json('data/weather_data.json')
+            current_weather = weather_data.get('currentConditions', {})
+            weather_msg = f"Weather on {holiday_name} in {city}: {current_weather.get('conditions', 'N/A')}, {current_weather.get('temp', 'N/A')}°C"
 
+            event_msg = "Events near you: "
+            for event in events[:5]:  # Get the first 5 events
+                event_msg += f"{event['name']} on {event['date']} at {event['venue']}. "
 
-def generate_html_content(events, weather_data, upcoming_holiday):
-    """
-    Generate the HTML content from event, weather, and holiday data.
-    """
-    holiday_name, holiday_date = upcoming_holiday if upcoming_holiday else ("No upcoming holiday", "N/A")
-    weather_html = f"""
-    <h2>Upcoming Holiday: {holiday_name} on {holiday_date}</h2>
-    <h3>Weather Forecast:</h3>
-    <ul>
-        {"".join([f"<li>{day['datetime']}: {day['conditions']} - {day['temp']}°C</li>" for day in weather_data['days']])}
-    </ul>
-    """
+            # Combine messages, keeping under the 160 character limit
+            message = f"Holiday Info: {holiday_name} ({holiday_date}). {weather_msg} {event_msg}"
+            self.send_sms_in_chunks(phone_number, message)  # Now phone_number is defined
 
-    events_html = "<h3>Nearby Events:</h3><ul>"
-    for event in events:
-        events_html += f"<li>{event['name']} on {event['date']} at {event['venue']} - <a href='{event['url']}'>Book Now</a></li>"
-    events_html += "</ul>"
+    def send_sms_in_chunks(self, phone_number, message):
+        # Send SMS in chunks if it's too long
+        max_length = 160
+        while len(message) > max_length:
+            chunk = message[:max_length]
+            self.sms_provider.send_sms(phone_number, chunk)
+            message = message[max_length:]
 
-    return f"""
-    <html>
-    <head><title>User Summary</title></head>
-    <body>
-    <h1>Your Personalized Summary</h1>
-    {weather_html}
-    {events_html}
-    </body>
-    </html>
-    """
+        # Send remaining message if any
+        if message:
+            self.sms_provider.send_sms(phone_number, message)
 
-
-def cleanup_old_files():
-    """
-    Removie HTML files that are older than 30 days to save disk space.
-    """
-    now = datetime.now().timestam()
-    for file in os.listdir(HTML_DIR):
-        file_path = os.path.join(HTML_DIR, file)
-        if os.path.isfile(file_path):
-            file_age = now - os.path.getctime(file_path)
-            if file_age > 30 * 24 * 60 * 60:  # 30 days in seconds
-                os.remove(file_path)
-                print(f"Deleted old summary: {file}")
-
+# Main function to run the application
+def main():
+    app = MainApp()
+    app.onboard_user()
 
 if __name__ == "__main__":
-    # Start the Flask server
-    app.run(host='0.0.0.0', port=5001)
-    
-    # Cleanup old HTML files at intervals (set this up as a scheduled job)
-    cleanup_old_files()
+    main()

@@ -4,19 +4,17 @@ import requests
 BASE_URL = "http://hackathons.masterschool.com:3030/"
 BASE_TEAM_NAME = "Eventify"
 
-
 class MasterSchoolSMSProvider(ISmsProvider):
     def un_register_number(self, number: int):
         pass
 
-    def register_number(self, number: str):
+    def register_number(self, number: int):
         endpoint = "team/registerNumber"
         json_body = {
             "phoneNumber": number,
             "teamName": f"{BASE_TEAM_NAME}"
         }
         return self.call_api("POST", endpoint, json_body=json_body)
-
 
     def get_messages(self):
         pass
@@ -25,8 +23,8 @@ class MasterSchoolSMSProvider(ISmsProvider):
         endpoint = "sms/send"
         json_body ={
             "phoneNumber": to,
-            "message":message,
-            "sender": f"{BASE_TEAM_NAME}"
+            "message": message,
+            "sender": ""
         }
         return self.call_api("POST", endpoint, json_body=json_body)
 
