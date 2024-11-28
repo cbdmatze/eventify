@@ -2,7 +2,7 @@ from SMSService.Interface.ISmsProvider import ISmsProvider
 import requests
 
 BASE_URL = "http://hackathons.masterschool.com:3030/"
-BASE_TEAM_NAME = "Eventify"
+BASE_TEAM_NAME = "TheIdentifiers"
 
 class MasterSchoolSMSProvider(ISmsProvider):
     def un_register_number(self, number: int):
@@ -16,8 +16,13 @@ class MasterSchoolSMSProvider(ISmsProvider):
         }
         return self.call_api("POST", endpoint, json_body=json_body)
 
-    def get_messages(self):
-        pass
+    def get_messages(self, number: int):
+        endpoint = "team/registerNumber"
+        json_body = {
+            "phoneNumber": number,
+            "teamName": f"{BASE_TEAM_NAME}"
+        }
+        return self.call_api("POST", endpoint, json_body=json_body)
 
     def send_sms(self, to: int, message: str):
         endpoint = "sms/send"

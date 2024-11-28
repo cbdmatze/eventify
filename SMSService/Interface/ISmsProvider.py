@@ -15,5 +15,5 @@ class ISmsProvider(ABC):
         pass
 
     @abstractmethod
-    def get_messages(self):
+    def get_messages(self, number: int):
         pass
