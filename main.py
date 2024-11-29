@@ -22,8 +22,6 @@ class MainApp:
         self.weather_app = WeatherService(API_KEY_WEATHER)
 
     def onboard_user(self):
-
-
         # Collect user details for onboarding
         print("Welcome! Please enter your details.")
         phone_number = input("Enter your phone number: ")

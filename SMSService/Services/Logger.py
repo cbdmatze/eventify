@@ -45,7 +45,6 @@ class Logger:
                     if message["receivedAt"] not in existing_messages:
                         current_data[number].append(message)
 
-                # مرتب‌سازی پیام‌ها بر اساس تاریخ
                 current_data[number] = sorted(
                     current_data[number],
                     key=lambda x: datetime.fromisoformat(x["receivedAt"])
