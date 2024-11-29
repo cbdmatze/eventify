@@ -16,13 +16,9 @@ class MasterSchoolSMSProvider(ISmsProvider):
         }
         return self.call_api("POST", endpoint, json_body=json_body)
 
-    def get_messages(self, number: int):
-        endpoint = "team/registerNumber"
-        json_body = {
-            "phoneNumber": number,
-            "teamName": f"{BASE_TEAM_NAME}"
-        }
-        return self.call_api("POST", endpoint, json_body=json_body)
+    def get_messages(self):
+        endpoint = f"team/getMessages/{BASE_TEAM_NAME}"
+        return self.call_api("GET", endpoint)
 
     def send_sms(self, to: int, message: str):
         endpoint = "sms/send"
