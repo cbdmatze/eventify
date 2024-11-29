@@ -35,7 +35,7 @@
                 "max_temp": "N/A",
                 "min_temp": "N/A",
                 "conditions": "Partially cloudy",
-                "description": "Partly cloudy throughout the day.",
+                "description": "Clearing in the afternoon.",
                 "sunset": "16:27:31",
                 "sundown": "N/A"
             },
@@ -61,8 +61,8 @@
                 "date": "2024-12-04",
                 "max_temp": "N/A",
                 "min_temp": "N/A",
-                "conditions": "Overcast",
-                "description": "Cloudy skies throughout the day.",
+                "conditions": "Snow, Rain, Overcast",
+                "description": "Cloudy skies throughout the day with a chance of rain or snow.",
                 "sunset": "16:26:13",
                 "sundown": "N/A"
             },
@@ -80,7 +80,7 @@
                 "max_temp": "N/A",
                 "min_temp": "N/A",
                 "conditions": "Rain, Partially cloudy",
-                "description": "Partly cloudy throughout the day with rain in the morning and afternoon.",
+                "description": "Partly cloudy throughout the day with a chance of rain throughout the day.",
                 "sunset": "16:25:37",
                 "sundown": "N/A"
             },
@@ -98,7 +98,7 @@
                 "max_temp": "N/A",
                 "min_temp": "N/A",
                 "conditions": "Rain, Overcast",
-                "description": "Cloudy skies throughout the day with a chance of rain.",
+                "description": "Cloudy skies throughout the day with a chance of rain throughout the day.",
                 "sunset": "16:25:12",
                 "sundown": "N/A"
             },
@@ -106,8 +106,8 @@
                 "date": "2024-12-09",
                 "max_temp": "N/A",
                 "min_temp": "N/A",
-                "conditions": "Rain, Overcast",
-                "description": "Cloudy skies throughout the day with early morning rain.",
+                "conditions": "Snow, Rain, Partially cloudy",
+                "description": "Partly cloudy throughout the day with afternoon rain or snow.",
                 "sunset": "16:25:04",
                 "sundown": "N/A"
             },
@@ -115,8 +115,8 @@
                 "date": "2024-12-10",
                 "max_temp": "N/A",
                 "min_temp": "N/A",
-                "conditions": "Clear",
-                "description": "Clear conditions throughout the day.",
+                "conditions": "Partially cloudy",
+                "description": "Partly cloudy throughout the day.",
                 "sunset": "16:24:59",
                 "sundown": "N/A"
             },
@@ -124,8 +124,8 @@
                 "date": "2024-12-11",
                 "max_temp": "N/A",
                 "min_temp": "N/A",
-                "conditions": "Partially cloudy",
-                "description": "Partly cloudy throughout the day.",
+                "conditions": "Overcast",
+                "description": "Cloudy skies throughout the day.",
                 "sunset": "16:24:58",
                 "sundown": "N/A"
             },
@@ -142,8 +142,8 @@
                 "date": "2024-12-13",
                 "max_temp": "N/A",
                 "min_temp": "N/A",
-                "conditions": "Overcast",
-                "description": "Cloudy skies throughout the day.",
+                "conditions": "Partially cloudy",
+                "description": "Partly cloudy throughout the day.",
                 "sunset": "16:25:04",
                 "sundown": "N/A"
             }
@@ -2844,6 +2844,183 @@
                 "date": "2024-11-29",
                 "venue": "Inselpark Arena",
                 "ticket_url": "https://www.ticketmaster.de/event/ragnbone-man-tickets/546529?language=en-us"
+            }
+        ]
+    },
+    "4915756411534": {
+        "holidays": [
+            {
+                "name": "Christmas Day",
+                "date": "2024-12-25"
+            }
+        ],
+        "weather": [
+            {
+                "date": "2024-11-29",
+                "max_temp": "N/A",
+                "min_temp": "N/A",
+                "conditions": "Partially cloudy",
+                "description": "Partly cloudy throughout the day.",
+                "sunset": "15:57:19",
+                "sundown": "N/A"
+            },
+            {
+                "date": "2024-11-30",
+                "max_temp": "N/A",
+                "min_temp": "N/A",
+                "conditions": "Partially cloudy",
+                "description": "Partly cloudy throughout the day.",
+                "sunset": "15:56:35",
+                "sundown": "N/A"
+            },
+            {
+                "date": "2024-12-01",
+                "max_temp": "N/A",
+                "min_temp": "N/A",
+                "conditions": "Clear",
+                "description": "Clear conditions throughout the day.",
+                "sunset": "15:55:54",
+                "sundown": "N/A"
+            },
+            {
+                "date": "2024-12-02",
+                "max_temp": "N/A",
+                "min_temp": "N/A",
+                "conditions": "Partially cloudy",
+                "description": "Partly cloudy throughout the day.",
+                "sunset": "15:55:17",
+                "sundown": "N/A"
+            },
+            {
+                "date": "2024-12-03",
+                "max_temp": "N/A",
+                "min_temp": "N/A",
+                "conditions": "Partially cloudy",
+                "description": "Partly cloudy throughout the day.",
+                "sunset": "15:54:42",
+                "sundown": "N/A"
+            },
+            {
+                "date": "2024-12-04",
+                "max_temp": "N/A",
+                "min_temp": "N/A",
+                "conditions": "Partially cloudy",
+                "description": "Partly cloudy throughout the day.",
+                "sunset": "15:54:11",
+                "sundown": "N/A"
+            },
+            {
+                "date": "2024-12-05",
+                "max_temp": "N/A",
+                "min_temp": "N/A",
+                "conditions": "Rain, Partially cloudy",
+                "description": "Partly cloudy throughout the day with late afternoon rain.",
+                "sunset": "15:53:44",
+                "sundown": "N/A"
+            },
+            {
+                "date": "2024-12-06",
+                "max_temp": "N/A",
+                "min_temp": "N/A",
+                "conditions": "Rain, Overcast",
+                "description": "Cloudy skies throughout the day with a chance of rain.",
+                "sunset": "15:53:19",
+                "sundown": "N/A"
+            },
+            {
+                "date": "2024-12-07",
+                "max_temp": "N/A",
+                "min_temp": "N/A",
+                "conditions": "Rain, Overcast",
+                "description": "Cloudy skies throughout the day with early morning rain.",
+                "sunset": "15:52:58",
+                "sundown": "N/A"
+            },
+            {
+                "date": "2024-12-08",
+                "max_temp": "N/A",
+                "min_temp": "N/A",
+                "conditions": "Rain, Overcast",
+                "description": "Cloudy skies throughout the day with late afternoon rain.",
+                "sunset": "15:52:41",
+                "sundown": "N/A"
+            },
+            {
+                "date": "2024-12-09",
+                "max_temp": "N/A",
+                "min_temp": "N/A",
+                "conditions": "Snow, Rain, Overcast",
+                "description": "Cloudy skies throughout the day with early morning snow or rain.",
+                "sunset": "15:52:27",
+                "sundown": "N/A"
+            },
+            {
+                "date": "2024-12-10",
+                "max_temp": "N/A",
+                "min_temp": "N/A",
+                "conditions": "Partially cloudy",
+                "description": "Partly cloudy throughout the day.",
+                "sunset": "15:52:17",
+                "sundown": "N/A"
+            },
+            {
+                "date": "2024-12-11",
+                "max_temp": "N/A",
+                "min_temp": "N/A",
+                "conditions": "Partially cloudy",
+                "description": "Partly cloudy throughout the day.",
+                "sunset": "15:52:10",
+                "sundown": "N/A"
+            },
+            {
+                "date": "2024-12-12",
+                "max_temp": "N/A",
+                "min_temp": "N/A",
+                "conditions": "Overcast",
+                "description": "Cloudy skies throughout the day.",
+                "sunset": "15:52:07",
+                "sundown": "N/A"
+            },
+            {
+                "date": "2024-12-13",
+                "max_temp": "N/A",
+                "min_temp": "N/A",
+                "conditions": "Partially cloudy",
+                "description": "Partly cloudy throughout the day.",
+                "sunset": "15:52:07",
+                "sundown": "N/A"
+            }
+        ],
+        "events": [
+            {
+                "name": "Eisb\u00e4ren Berlin - ERC Ingolstadt | Logen-Seat",
+                "date": "2024-11-29",
+                "venue": "Uber Arena",
+                "ticket_url": "https://www.ticketmaster.de/event/eisbaren-berlin-erc-ingolstadt-%7C-logen-seat-tickets/550239?language=en-us"
+            },
+            {
+                "name": "Vanessa Mai - ZUHAUSE BEI DIR \u2013 Tour 2024",
+                "date": "2024-11-30",
+                "venue": "Venue not available",
+                "ticket_url": "https://www.ticketmaster.de/event/vanessa-mai-zuhause-bei-dir--tour-2024-tickets/526677?language=en-us"
+            },
+            {
+                "name": "Vanessa Mai - Gold & Silver Upgrade (no ticket included)",
+                "date": "2024-11-30",
+                "venue": "Venue not available",
+                "ticket_url": "https://www.ticketmaster.de/event/vanessa-mai-gold--silver-upgrade-no-ticket-included--tickets/526747?language=en-us"
+            },
+            {
+                "name": "Ilse DeLange",
+                "date": "2024-11-29",
+                "venue": "Venue not available",
+                "ticket_url": "https://www.ticketmaster.de/event/ilse-delange-tickets/532051?language=en-us"
+            },
+            {
+                "name": "ALBA BERLIN - MHP Riesen Ludwigsburg | Box seat",
+                "date": "2024-12-01",
+                "venue": "Uber Arena",
+                "ticket_url": "https://www.ticketmaster.de/event/alba-berlin-mhp-riesen-ludwigsburg-%7C-box-seat-tickets/553409?language=en-us"
             }
         ]
     }

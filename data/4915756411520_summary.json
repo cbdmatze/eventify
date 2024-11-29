@@ -27,7 +27,7 @@
             "max_temp": "N/A",
             "min_temp": "N/A",
             "conditions": "Partially cloudy",
-            "description": "Partly cloudy throughout the day.",
+            "description": "Clearing in the afternoon.",
             "sunset": "16:27:31",
             "sundown": "N/A"
         },
@@ -53,8 +53,8 @@
             "date": "2024-12-04",
             "max_temp": "N/A",
             "min_temp": "N/A",
-            "conditions": "Overcast",
-            "description": "Cloudy skies throughout the day.",
+            "conditions": "Snow, Rain, Overcast",
+            "description": "Cloudy skies throughout the day with a chance of rain or snow.",
             "sunset": "16:26:13",
             "sundown": "N/A"
         },
@@ -72,7 +72,7 @@
             "max_temp": "N/A",
             "min_temp": "N/A",
             "conditions": "Rain, Partially cloudy",
-            "description": "Partly cloudy throughout the day with rain in the morning and afternoon.",
+            "description": "Partly cloudy throughout the day with a chance of rain throughout the day.",
             "sunset": "16:25:37",
             "sundown": "N/A"
         },
@@ -90,7 +90,7 @@
             "max_temp": "N/A",
             "min_temp": "N/A",
             "conditions": "Rain, Overcast",
-            "description": "Cloudy skies throughout the day with a chance of rain.",
+            "description": "Cloudy skies throughout the day with a chance of rain throughout the day.",
             "sunset": "16:25:12",
             "sundown": "N/A"
         },
@@ -98,8 +98,8 @@
             "date": "2024-12-09",
             "max_temp": "N/A",
             "min_temp": "N/A",
-            "conditions": "Rain, Overcast",
-            "description": "Cloudy skies throughout the day with early morning rain.",
+            "conditions": "Snow, Rain, Partially cloudy",
+            "description": "Partly cloudy throughout the day with afternoon rain or snow.",
             "sunset": "16:25:04",
             "sundown": "N/A"
         },
@@ -107,8 +107,8 @@
             "date": "2024-12-10",
             "max_temp": "N/A",
             "min_temp": "N/A",
-            "conditions": "Clear",
-            "description": "Clear conditions throughout the day.",
+            "conditions": "Partially cloudy",
+            "description": "Partly cloudy throughout the day.",
             "sunset": "16:24:59",
             "sundown": "N/A"
         },
@@ -116,8 +116,8 @@
             "date": "2024-12-11",
             "max_temp": "N/A",
             "min_temp": "N/A",
-            "conditions": "Partially cloudy",
-            "description": "Partly cloudy throughout the day.",
+            "conditions": "Overcast",
+            "description": "Cloudy skies throughout the day.",
             "sunset": "16:24:58",
             "sundown": "N/A"
         },
@@ -134,8 +134,8 @@
             "date": "2024-12-13",
             "max_temp": "N/A",
             "min_temp": "N/A",
-            "conditions": "Overcast",
-            "description": "Cloudy skies throughout the day.",
+            "conditions": "Partially cloudy",
+            "description": "Partly cloudy throughout the day.",
             "sunset": "16:25:04",
             "sundown": "N/A"
         }
