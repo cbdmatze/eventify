@@ -130,7 +130,7 @@ class MainApp:
                 "weather": weather_summary,
                 "events": event_summary
             }
-
+            
             # Create the directory if it doesn't exist
             os.makedirs("data", exist_ok=True)
             
