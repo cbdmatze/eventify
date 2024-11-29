@@ -35,12 +35,18 @@ class MainApp:
         # Send an initial SMS asking if they want to receive holiday info
         self.send_guid_sms(int(phone_number))
 
-        # Wait for the response from user
-        if self.waiting_for_response(int(phone_number)):
+        # Wait for the response from the user
+        response_received = self.waiting_for_response(int(phone_number))
+
+        if response_received:
             self.provide_holiday_info(city, postal_code, phone_number)  # Pass phone_number here
         else:
-            print("Okay, have a great day!")
-            exit()
+            retry = input("It seems we didn't get a valid response. Would you like to try again? (y/n): ").strip().lower()
+            if retry == "y":
+                self.onboard_user()  # Retry onboarding
+            else:
+                print("Okay, have a great day!")
+                exit()
 
     def provide_holiday_info(self, city, postal_code, phone_number):
         # Get the next holiday from NagerHolidayProvider
@@ -82,23 +88,37 @@ class MainApp:
         if message:
             self.SMSService.send_sms(phone_number, message)
 
-
     def waiting_for_response(self, phone_number: int):
-       # return True
-        # return self.get_respone_with_terminal();
-      return self.is_user_accpet(phone_number)
+        print("Waiting for your response via SMS...")
+        return self.is_user_accpet(phone_number)
+
 
     def is_user_accpet(self, phone_number: int):
         last_message = self.get_last_message(phone_number)
-        if "text" in last_message and (last_message["text"].lower() == "y"):
+        
+        if last_message is None:
+            print("No valid response received from the user.")
+            return False
+
+        if "text" in last_message and last_message["text"].lower() == "y":
             return True
+
         return False
 
     def get_last_message(self, phone_number):
         result = self.SMSService.get_last_message(phone_number)
-        if result["status"] == "error":
+        attempts = 0
+        max_attempts = 3  # Limit the number of attempts to avoid an infinite loop
+
+        while result["status"] == "error" and attempts < max_attempts:
+            print(f"Error fetching last message, attempt {attempts+1}")
             self.SMSService.reload_messages(50)
-            self.get_last_message(phone_number)
+            result = self.SMSService.get_last_message(phone_number)  # Try fetching again
+            attempts += 1
+
+        if result["status"] == "error":
+            print("Error: Unable to fetch the last message after multiple attempts.")
+            return None  # Return None if it fails after max attempts
         else:
             return result["last_message"]
 
@@ -124,7 +144,6 @@ class MainApp:
         return True
 
 
-
 # Main function to run the application
 def main():
     try:
@@ -132,10 +151,6 @@ def main():
         app.onboard_user()
     except ValueError:
         print("Oops!  That was no valid number.  Try again...")
-
-
-
-
 
 
 if __name__ == "__main__":
