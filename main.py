@@ -13,7 +13,9 @@ API_KEY_WEATHER = "HLU729E56SMY3M2FCQJLCXEYM"
 # Main application logic
 class MainApp:
     def __init__(self):
+
         self.SMSService = SMSController()
+        self.sms_provider = SMSController()
         self.holiday_provider = NagerHolidayProvider()
         self.holiday_service = HolidayController(self.holiday_provider)
 
@@ -29,10 +31,12 @@ class MainApp:
         postal_code = input("Enter your postal code: ")
 
         # Register user via SMS provider
+
         res =  self.SMSService.register_number(int(phone_number))
         if res["status"] =="error":
             print("have error here ")
-
+        print(phone_number)
+        self.sms_provider.register_number(int(phone_number))
         print(f"Welcome, {name} from {city} ({postal_code})!")
 
         # Send an initial SMS asking if they want to receive holiday info
