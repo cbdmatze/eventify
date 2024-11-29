@@ -78,3 +78,20 @@ class HolidayController:
         if not country_code:
             raise ValueError("Country code cannot be empty.")
         return self.provider.get_next365_holidays(country_code)
+
+    def get_next_holidays(self, country_code: str):
+        """
+        Fetches the next holiday for the given country code.
+
+        Args:
+            country_code (str): The country code to fetch holidays for.
+
+        Returns:
+            list: A list with the next upcoming holiday, or an empty list if no holiday is found.
+        """
+        holidays = self.get_next365_holidays(country_code)
+        if holidays:
+            # Return the first holiday (next holiday)
+            return holidays[:1]
+        else:
+            return []  # Return an empty list if no holidays are found

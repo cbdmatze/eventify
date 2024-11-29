@@ -1,4 +1,5 @@
-from SMSService.Services.MasterSchoolSMSProvider import MasterSchoolSMSProvider
+'''
+#rom SMSService.Services.MasterSchoolSMSProvider import MasterSchoolSMSProvider
 from EventService import EventService
 from HolidayService.Controller.HolidayController import HolidayController
 from HolidayService.Services.NagerHolidayProvider import NagerHolidayProvider
@@ -14,7 +15,6 @@ def load_env_variables():
     """
     load_dotenv()
     return {
-        'holiday_api_key': os.getenv("HOLIDAY_API_KEY"),
         'weather_api_key': os.getenv("WEATHER_API_KEY"),
         'ticketmaster_api_key': os.getenv("TICKETMASTER_API_KEY"),
     }
@@ -28,12 +28,20 @@ def load_user_data():
         dict: The user data loaded from the file.
     """
     try:
-        with open("data/user_data.json", "r") as file:
-            return json.load(file)
-    except FileNotFoundError:
-        print("User data file not found, initializing empty data.")
+        if not os.path.exists('data/user_data.json'):
+            raise FileNotFoundError("The file user_data.json does not exist.")
+        with open('data/user_data.json', 'r') as file:
+            data = file.read().strip()
+            if not data:  # Check if the file is empty
+                raise ValueError("The file user_data.json is empty.")
+            return json.loads(data)
+    except (json.JSONDecodeError, ValueError) as e:
+        print(f"Error reading JSON data: {e}")
+        return {}  # Return empty dictionary if JSON is invalid or empty
+    except FileNotFoundError as e:
+        print(f"File error: {e}")
         return {}
-    
+
 
 def save_user_data(user_data):
     """
@@ -107,12 +115,7 @@ def send_personalized_info(sms_provider, user_phone, info):
         user_phone (str): The user's phone number.
         info (dict): the personalized information to send.
     """
-    message = f"Holiday: {info['holiday'][0]['name']} on {info['holiday'][0]['date']}."
-    
-    if info['events']:
-        message += f" Nearby Events: {info['events'][0]['name']} at {info['events'][0]['venue']}."
-
-    if info.get('holiday') and info['holiday'][0].get('name'):
+    if info.get('holiday') and info['holiday']:
         message = f"Holiday: {info['holiday'][0]['name']} on {info['holiday'][0]['date']}."
     else:
         message = "No upcoming holidays found."
@@ -135,7 +138,7 @@ def create_html_summary_page(info, user_phone):
         user_phone (str): the user's phone number.
         
     Returns:
-        srt: The file path of the generated HTML page.
+        str: The file path of the generated HTML page.
     """
     html_content = f"""
     <html>
@@ -162,7 +165,7 @@ def create_html_summary_page(info, user_phone):
 
 def main():
     """
-    The main function concerts the orchestra.
+    The main function that orchestrates all the services.
     """
     # Load environment variables and the user data
     env_vars = load_env_variables()
@@ -170,7 +173,7 @@ def main():
 
     # Initialize Services
     sms_provider = MasterSchoolSMSProvider()
-    event_service = EventServic(env_vars['ticketmaster_api_key'])
+    event_service = EventService(env_vars['ticketmaster_api_key'])
     holiday_provider = NagerHolidayProvider()
     holiday_service = HolidayController(holiday_provider)
     weather_service = WeatherService(env_vars['weather_api_key'])
@@ -178,7 +181,7 @@ def main():
     user_phone = user_data.get("phone")
 
     if not user_phone:
-        print("No user phon number found, onboarding a new user.")
+        print("No user phone number found, onboarding a new user.")
         user_phone = input("Please enter your phone number: ")
         onboard_user(sms_provider, user_phone)
         user_data['phone'] = user_phone
@@ -194,5 +197,7 @@ def main():
     html_summary_path = create_html_summary_page(personalized_info, user_phone)
     sms_provider.send_sms(user_phone, f"View your personalized summary here: {html_summary_path}")
 
+
 if __name__ == "__main__":
     main()
+'''

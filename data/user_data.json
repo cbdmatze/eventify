@@ -1,12 +1,48 @@
-<<<<<<< HEAD
-=======
 {
-    "name": "Matthias",
-    "birthday": "26.01.1983",
-    "city": "Pfaffenhofen",
-    "postal_code": "74397",
     "phone_number": "4915756411520",
-    "phone": "4915756411520",
-    "events": []
+    "postal_code": "74072",
+    "city": "Heilbronn",
+    "events": [],
+    "weather": [
+        {
+            "date": "2024-11-28",
+            "temp": 1.5,
+            "description": "Clear conditions throughout the day."
+        },
+        {
+            "date": "2024-11-29",
+            "temp": 0.9,
+            "description": "Clear conditions throughout the day."
+        },
+        {
+            "date": "2024-11-30",
+            "temp": 3.4,
+            "description": "Partly cloudy throughout the day."
+        },
+        {
+            "date": "2024-12-01",
+            "temp": 0.4,
+            "description": "Clear conditions throughout the day."
+        },
+        {
+            "date": "2024-12-02",
+            "temp": 1.7,
+            "description": "Clear conditions throughout the day."
+        },
+        {
+            "date": "2024-12-03",
+            "temp": 3.9,
+            "description": "Clear conditions throughout the day."
+        },
+        {
+            "date": "2024-12-04",
+            "temp": 7.5,
+            "description": "Partly cloudy throughout the day."
+        },
+        {
+            "date": "2024-12-05",
+            "temp": 9.2,
+            "description": "Partly cloudy throughout the day."
+        }
+    ]
 }
->>>>>>> ai_stuff
