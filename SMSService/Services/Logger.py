@@ -70,7 +70,7 @@ class Logger:
 
             messages = current_data[phone_number]
             if messages:
-                return {"status": "success", "last_message": messages[-1]}  # آخرین پیام
+                return {"status": "success", "last_message": messages[-1]}
             else:
                 return {"status": "error", "message": "No messages found for this number"}
 

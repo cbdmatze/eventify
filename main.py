@@ -94,8 +94,6 @@ class MainApp:
             return True
         return False
 
-
-
     def get_last_message(self, phone_number):
         result = self.SMSService.get_last_message(phone_number)
         if result["status"] == "error":
