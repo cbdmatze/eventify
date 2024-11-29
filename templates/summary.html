@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Holiday Summary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #5a5a5a;
+        }
+        .weather, .events, .holiday {
+            margin: 20px 0;
+            text-align: left;
+        }
+        .weather div, .events div, .holiday div {
+            margin: 10px 0;
+        }
+        .event-item {
+            border-bottom: 1px solid #eee;
+            padding: 10px 0;
+        }
+        .event-item:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Personal Holiday Summary</h1>
+
+        <!-- Holiday Information -->
+        <div class="holiday">
+            <h2>Next Holiday: {{ summary.holiday.name }}</h2>
+            <p><strong>Date:</strong> {{ summary.holiday.date }}</p>
+        </div>
+
+        <!-- Weather Information -->
+        <div class="weather">
+            <h2>7-Day Weather Forecast</h2>
+            {% for day in summary.weather %}
+                <div>
+                    <strong>{{ day.date }}:</strong>
+                    Max Temp: {{ day.max_temp }}°C, Min Temp: {{ day.min_temp }}°C
+                    Conditions: {{ day.conditions }} - {{ day.description }}
+                </div>
+            {% endfor %}
+        </div>
+
+        <!-- Events -->
+        <div class="events">
+            <h2>Upcoming Events</h2>
+            {% for event in summary.events %}
+                <div class="event-item">
+                    <h3>{{ event.name }}</h3>
+                    <p><strong>Date:</strong> {{ event.date }}<br>
+                       <strong>Venue:</strong> {{ event.venue }}<br>
+                       <a href="{{ event.ticket_url }}" target="_blank">Buy Tickets</a></p>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>

@@ -7,6 +7,7 @@ class WeatherService:
         self.base_url = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/"
 
     def get_weather_data(self, location, user_phone):
+        # Fetch current weather data
         url = f"{self.base_url}{location}"
 
         params = {
@@ -20,8 +21,29 @@ class WeatherService:
             response = requests.get(url, params=params)
             response.raise_for_status()
             weather_data = response.json()
-            self.save_user_data(user_phone, {'weather': weather_data})
+            self.save_user_data(user_phone, {'current_weather': weather_data})
             return weather_data
+        except requests.exceptions.RequestException as e:
+            print(f"Error fetching data from Visual Crossing API: {e}")
+            return None
+
+    def get_7_day_forecast(self, location, user_phone):
+        # Fetch 7-day weather forecast data
+        url = f"{self.base_url}{location}"
+
+        params = {
+            'key': self.api_key,
+            'unitGroup': 'metric',
+            'include': 'days',
+            'contentType': 'json'
+        }
+
+        try:
+            response = requests.get(url, params=params)
+            response.raise_for_status()
+            forecast_data = response.json()
+            self.save_user_data(user_phone, {'7_day_forecast': forecast_data})
+            return forecast_data['days']  # Return forecast data for the next 7 days
         except requests.exceptions.RequestException as e:
             print(f"Error fetching data from Visual Crossing API: {e}")
             return None

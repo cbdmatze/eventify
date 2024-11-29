@@ -1,0 +1,151 @@
+{
+    "holiday": {
+        "name": "Christmas Day",
+        "date": "2024-12-25"
+    },
+    "weather": [
+        {
+            "date": "2024-11-29",
+            "max_temp": "N/A",
+            "min_temp": "N/A",
+            "conditions": "Partially cloudy",
+            "description": "Partly cloudy throughout the day.",
+            "sunset": "16:28:38",
+            "sundown": "N/A"
+        },
+        {
+            "date": "2024-11-30",
+            "max_temp": "N/A",
+            "min_temp": "N/A",
+            "conditions": "Partially cloudy",
+            "description": "Partly cloudy throughout the day.",
+            "sunset": "16:28:03",
+            "sundown": "N/A"
+        },
+        {
+            "date": "2024-12-01",
+            "max_temp": "N/A",
+            "min_temp": "N/A",
+            "conditions": "Partially cloudy",
+            "description": "Partly cloudy throughout the day.",
+            "sunset": "16:27:31",
+            "sundown": "N/A"
+        },
+        {
+            "date": "2024-12-02",
+            "max_temp": "N/A",
+            "min_temp": "N/A",
+            "conditions": "Rain, Partially cloudy",
+            "description": "Partly cloudy throughout the day with a chance of rain.",
+            "sunset": "16:27:02",
+            "sundown": "N/A"
+        },
+        {
+            "date": "2024-12-03",
+            "max_temp": "N/A",
+            "min_temp": "N/A",
+            "conditions": "Rain, Partially cloudy",
+            "description": "Partly cloudy throughout the day with early morning rain.",
+            "sunset": "16:26:36",
+            "sundown": "N/A"
+        },
+        {
+            "date": "2024-12-04",
+            "max_temp": "N/A",
+            "min_temp": "N/A",
+            "conditions": "Overcast",
+            "description": "Cloudy skies throughout the day.",
+            "sunset": "16:26:13",
+            "sundown": "N/A"
+        },
+        {
+            "date": "2024-12-05",
+            "max_temp": "N/A",
+            "min_temp": "N/A",
+            "conditions": "Rain, Overcast",
+            "description": "Cloudy skies throughout the day with a chance of rain.",
+            "sunset": "16:25:53",
+            "sundown": "N/A"
+        },
+        {
+            "date": "2024-12-06",
+            "max_temp": "N/A",
+            "min_temp": "N/A",
+            "conditions": "Rain, Partially cloudy",
+            "description": "Partly cloudy throughout the day with rain in the morning and afternoon.",
+            "sunset": "16:25:37",
+            "sundown": "N/A"
+        },
+        {
+            "date": "2024-12-07",
+            "max_temp": "N/A",
+            "min_temp": "N/A",
+            "conditions": "Rain, Partially cloudy",
+            "description": "Partly cloudy throughout the day with a chance of rain.",
+            "sunset": "16:25:23",
+            "sundown": "N/A"
+        },
+        {
+            "date": "2024-12-08",
+            "max_temp": "N/A",
+            "min_temp": "N/A",
+            "conditions": "Rain, Overcast",
+            "description": "Cloudy skies throughout the day with a chance of rain.",
+            "sunset": "16:25:12",
+            "sundown": "N/A"
+        },
+        {
+            "date": "2024-12-09",
+            "max_temp": "N/A",
+            "min_temp": "N/A",
+            "conditions": "Rain, Overcast",
+            "description": "Cloudy skies throughout the day with early morning rain.",
+            "sunset": "16:25:04",
+            "sundown": "N/A"
+        },
+        {
+            "date": "2024-12-10",
+            "max_temp": "N/A",
+            "min_temp": "N/A",
+            "conditions": "Clear",
+            "description": "Clear conditions throughout the day.",
+            "sunset": "16:24:59",
+            "sundown": "N/A"
+        },
+        {
+            "date": "2024-12-11",
+            "max_temp": "N/A",
+            "min_temp": "N/A",
+            "conditions": "Partially cloudy",
+            "description": "Partly cloudy throughout the day.",
+            "sunset": "16:24:58",
+            "sundown": "N/A"
+        },
+        {
+            "date": "2024-12-12",
+            "max_temp": "N/A",
+            "min_temp": "N/A",
+            "conditions": "Overcast",
+            "description": "Cloudy skies throughout the day.",
+            "sunset": "16:24:59",
+            "sundown": "N/A"
+        },
+        {
+            "date": "2024-12-13",
+            "max_temp": "N/A",
+            "min_temp": "N/A",
+            "conditions": "Overcast",
+            "description": "Cloudy skies throughout the day.",
+            "sunset": "16:25:04",
+            "sundown": "N/A"
+        }
+    ],
+    "events": [
+        {
+            "name": "STING 3.0",
+            "date": "2025-06-07",
+            "venue": "Venue not available",
+            "ticket_url": "https://www.ticketmaster.de/event/sting-30-tickets/553197?language=en-us"
+        }
+    ]
+}

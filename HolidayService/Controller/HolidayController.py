@@ -47,7 +47,7 @@ class HolidayController:
         """Saves the fetched holiday data to user_data.json under the specific user's phone number."""
         try:
             # Load existing user data
-            with open('user_data.json', 'r') as f:
+            with open('data/user_data.json', 'r') as f:
                 user_data = json.load(f)
         except FileNotFoundError:
             user_data = {}
@@ -59,5 +59,5 @@ class HolidayController:
         user_data[user_phone].update(data)
 
         # Save the updated data back to user_data.json
-        with open('user_data.json', 'w') as f:
+        with open('data/user_data.json', 'w') as f:
             json.dump(user_data, f, indent=4)
