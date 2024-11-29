@@ -35,8 +35,8 @@
             "date": "2024-12-02",
             "max_temp": "N/A",
             "min_temp": "N/A",
-            "conditions": "Rain, Partially cloudy",
-            "description": "Partly cloudy throughout the day with a chance of rain.",
+            "conditions": "Snow, Rain, Overcast",
+            "description": "Cloudy skies throughout the day with a chance of rain or snow.",
             "sunset": "16:27:02",
             "sundown": "N/A"
         },
@@ -45,7 +45,7 @@
             "max_temp": "N/A",
             "min_temp": "N/A",
             "conditions": "Rain, Partially cloudy",
-            "description": "Partly cloudy throughout the day with early morning rain.",
+            "description": "Partly cloudy throughout the day with a chance of rain.",
             "sunset": "16:26:36",
             "sundown": "N/A"
         },

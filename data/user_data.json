@@ -43,8 +43,8 @@
                 "date": "2024-12-02",
                 "max_temp": "N/A",
                 "min_temp": "N/A",
-                "conditions": "Rain, Partially cloudy",
-                "description": "Partly cloudy throughout the day with a chance of rain.",
+                "conditions": "Snow, Rain, Overcast",
+                "description": "Cloudy skies throughout the day with a chance of rain or snow.",
                 "sunset": "16:27:02",
                 "sundown": "N/A"
             },
@@ -53,7 +53,7 @@
                 "max_temp": "N/A",
                 "min_temp": "N/A",
                 "conditions": "Rain, Partially cloudy",
-                "description": "Partly cloudy throughout the day with early morning rain.",
+                "description": "Partly cloudy throughout the day with a chance of rain.",
                 "sunset": "16:26:36",
                 "sundown": "N/A"
             },
@@ -2667,6 +2667,183 @@
                 "date": "2025-06-07",
                 "venue": "Venue not available",
                 "ticket_url": "https://www.ticketmaster.de/event/sting-30-tickets/553197?language=en-us"
+            }
+        ]
+    },
+    "491746897704": {
+        "holidays": [
+            {
+                "name": "Christmas Day",
+                "date": "2024-12-25"
+            }
+        ],
+        "weather": [
+            {
+                "date": "2024-11-29",
+                "max_temp": "N/A",
+                "min_temp": "N/A",
+                "conditions": "Partially cloudy",
+                "description": "Partly cloudy throughout the day.",
+                "sunset": "16:05:46",
+                "sundown": "N/A"
+            },
+            {
+                "date": "2024-11-30",
+                "max_temp": "N/A",
+                "min_temp": "N/A",
+                "conditions": "Partially cloudy",
+                "description": "Partly cloudy throughout the day.",
+                "sunset": "16:04:59",
+                "sundown": "N/A"
+            },
+            {
+                "date": "2024-12-01",
+                "max_temp": "N/A",
+                "min_temp": "N/A",
+                "conditions": "Partially cloudy",
+                "description": "Partly cloudy throughout the day.",
+                "sunset": "16:04:14",
+                "sundown": "N/A"
+            },
+            {
+                "date": "2024-12-02",
+                "max_temp": "N/A",
+                "min_temp": "N/A",
+                "conditions": "Overcast",
+                "description": "Cloudy skies throughout the day.",
+                "sunset": "16:03:33",
+                "sundown": "N/A"
+            },
+            {
+                "date": "2024-12-03",
+                "max_temp": "N/A",
+                "min_temp": "N/A",
+                "conditions": "Partially cloudy",
+                "description": "Partly cloudy throughout the day.",
+                "sunset": "16:02:56",
+                "sundown": "N/A"
+            },
+            {
+                "date": "2024-12-04",
+                "max_temp": "N/A",
+                "min_temp": "N/A",
+                "conditions": "Partially cloudy",
+                "description": "Partly cloudy throughout the day.",
+                "sunset": "16:02:22",
+                "sundown": "N/A"
+            },
+            {
+                "date": "2024-12-05",
+                "max_temp": "N/A",
+                "min_temp": "N/A",
+                "conditions": "Partially cloudy",
+                "description": "Partly cloudy throughout the day.",
+                "sunset": "16:01:52",
+                "sundown": "N/A"
+            },
+            {
+                "date": "2024-12-06",
+                "max_temp": "N/A",
+                "min_temp": "N/A",
+                "conditions": "Rain, Partially cloudy",
+                "description": "Partly cloudy throughout the day with a chance of rain throughout the day.",
+                "sunset": "16:01:25",
+                "sundown": "N/A"
+            },
+            {
+                "date": "2024-12-07",
+                "max_temp": "N/A",
+                "min_temp": "N/A",
+                "conditions": "Rain, Partially cloudy",
+                "description": "Partly cloudy throughout the day with a chance of rain.",
+                "sunset": "16:01:01",
+                "sundown": "N/A"
+            },
+            {
+                "date": "2024-12-08",
+                "max_temp": "N/A",
+                "min_temp": "N/A",
+                "conditions": "Rain, Partially cloudy",
+                "description": "Partly cloudy throughout the day with a chance of rain throughout the day.",
+                "sunset": "16:00:42",
+                "sundown": "N/A"
+            },
+            {
+                "date": "2024-12-09",
+                "max_temp": "N/A",
+                "min_temp": "N/A",
+                "conditions": "Rain",
+                "description": "Clear conditions throughout the day with a chance of rain.",
+                "sunset": "16:00:26",
+                "sundown": "N/A"
+            },
+            {
+                "date": "2024-12-10",
+                "max_temp": "N/A",
+                "min_temp": "N/A",
+                "conditions": "Partially cloudy",
+                "description": "Partly cloudy throughout the day.",
+                "sunset": "16:00:13",
+                "sundown": "N/A"
+            },
+            {
+                "date": "2024-12-11",
+                "max_temp": "N/A",
+                "min_temp": "N/A",
+                "conditions": "Partially cloudy",
+                "description": "Clearing in the afternoon.",
+                "sunset": "16:00:05",
+                "sundown": "N/A"
+            },
+            {
+                "date": "2024-12-12",
+                "max_temp": "N/A",
+                "min_temp": "N/A",
+                "conditions": "Rain, Partially cloudy",
+                "description": "Partly cloudy throughout the day with a chance of rain.",
+                "sunset": "16:00:00",
+                "sundown": "N/A"
+            },
+            {
+                "date": "2024-12-13",
+                "max_temp": "N/A",
+                "min_temp": "N/A",
+                "conditions": "Rain, Partially cloudy",
+                "description": "Partly cloudy throughout the day with late afternoon rain.",
+                "sunset": "15:59:59",
+                "sundown": "N/A"
+            }
+        ],
+        "events": [
+            {
+                "name": "Imagine Dragons: LOOM World Tour",
+                "date": "2025-07-16",
+                "venue": "Volksparkstadion",
+                "ticket_url": "https://www.ticketmaster.de/event/imagine-dragons-loom-world-tour-tickets/552059?language=en-us"
+            },
+            {
+                "name": "Kanii - #Blue Tour",
+                "date": "2024-11-30",
+                "venue": "Venue not available",
+                "ticket_url": "https://www.ticketmaster.de/event/kanii-blue-tour-tickets/544631?language=en-us"
+            },
+            {
+                "name": "Dayseeker - SOLD OUT",
+                "date": "2024-11-30",
+                "venue": "Venue not available",
+                "ticket_url": "https://www.ticketmaster.de/event/dayseeker-sold-out-tickets/540355?language=en-us"
+            },
+            {
+                "name": "Toytoy x Umberto Echo",
+                "date": "2024-11-30",
+                "venue": "Venue not available",
+                "ticket_url": "https://www.ticketmaster.de/event/toytoy-x-umberto-echo-tickets/542729?language=en-us"
+            },
+            {
+                "name": "Rag'n'Bone Man",
+                "date": "2024-11-29",
+                "venue": "Inselpark Arena",
+                "ticket_url": "https://www.ticketmaster.de/event/ragnbone-man-tickets/546529?language=en-us"
             }
         ]
     }
